@@ -9,29 +9,36 @@ html, button, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p
   /*cursor: crosshair;*/
 }
 
+body {
+  overflow: hidden;
+}
 /******** FONTS ********/
 @font-face {
  font-family: '83';
  src: url("../fonts/83.otf") /* TTF file for CSS3 browsers */
 }
 /******** END FONTS ********/
-
 .banner {
   font-family:'83', sans-serif;
+  background: white;
+  color: black;
+  border:2px solid black;
   letter-spacing: 0vw;
   font-size:0.8vw;
-  color: black;
-  word-spacing: 20vw;
-  background: white;
-  border-top:2px solid black;
-  border-bottom:2px solid black;
+  padding: 0.75% 0 0.5% 0;
+}
+
+.bannerAnimation {
+  word-spacing: 15vw;
   overflow: hidden;
   padding: 0.75% 0 0.5% 0;
 }
 
 .Top {
+  position: absolute;
   width: 100%;
   overflow: hidden;
+  z-index: -1;
 }
 
 .Bottom {
@@ -45,31 +52,30 @@ html, button, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p
   margin-bottom: 0px;
 }
 
-.Left {
-  position: fixed;
-  left: -49.7%;
-  border:2px solid black;
-  width: 101.5%;
-  transform: rotate(-90deg);
-  z-index: -1;
-}
-
-.Right {
-  position: fixed;
-  right: -49.7%;
-  border:2px solid black;
-  width: 101.5%;
-  transform: rotate(-90deg);
-  z-index: 0;
-}
-
 .bannerLeft {
-  font-family:'83', sans-serif;
-  letter-spacing: 0vw;
-  font-size:0.8vw;
-  color: black;
-  word-spacing:10vw;
-  background: white;
+  position: absolute;
+  float: left;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  width: 100%;
+  margin-left: 2.5%;
+  word-spacing: 8vw;
+}
+
+.bannerLeft span {
+  padding-left: 1.5%;
+}
+
+.bannerRight {
+  float: left;
+  transform: rotate(90deg);
+  margin-left: 100%;
+  transform-origin: left top 0;
+  width: 100%;
+  word-spacing: 8vw;
   overflow: hidden;
-  padding: 0.75% 0 0.5% 0;
+}
+
+.bannerRight span {
+  padding-left: 1.5%;
 }
