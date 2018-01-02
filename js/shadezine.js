@@ -30,8 +30,4 @@ $(function () {
 
       gap: gap
     });
-
-    // $('.marqueeLeft').marquee({
-    //     duration: 1000
-    // });
 });
