@@ -9,33 +9,43 @@ html, button, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p
   /*cursor: crosshair;*/
 }
 
-body {
-
+/******** FONTS ********/
+@font-face {
+ font-family: '83';
+ src: url("../fonts/83.otf") /* TTF file for CSS3 browsers */
 }
+/******** END FONTS ********/
 
-.Top, .Left {
-  font-family:'helvetica', sans-serif;
-  font-weight: 500;
-  font-size:1.25vw;
+.banner {
+  font-family:'83', sans-serif;
+  letter-spacing: 0.15vw;
+  font-size:1vw;
   color: black;
-  word-spacing: 8vw;
+  word-spacing: 20vw;
   background: white;
   border-top:2px solid black;
   border-bottom:2px solid black;
   overflow: hidden;
+  padding: 0.75% 0 0.5% 0;
 }
 
 .Top {
   width: 100%;
-  padding: 1% 0 1% 0;
   overflow: hidden;
 }
 
-.marqueeTop {
-  word-spacing: 8vw;
+.Bottom {
+  width: 100%;
+  overflow: hidden;
+  float: bottom;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 
-.Left {
+/* .Left {
   z-index: -1;
   position: absolute;
   width: 100%;
@@ -46,4 +56,4 @@ body {
 
 marquee {
   transform: rotate(180deg);
-}
+} */
