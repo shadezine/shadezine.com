@@ -9,23 +9,28 @@ html, button, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p
   /*cursor: crosshair;*/
 }
 
+/******** BODY ********/
 body {
   overflow: hidden;
+  background: none;
 }
-/******** FONTS ********/
+
 @font-face {
  font-family: '83';
  src: url("../fonts/83.otf") /* TTF file for CSS3 browsers */
 }
-/******** END FONTS ********/
+/******** END BODY ********/
+
+/******** BANNERS ********/
 .banner {
   font-family:'83', sans-serif;
   background: white;
   color: black;
-  border:2px solid black;
+  border: 0.125vw solid black;
   letter-spacing: 0vw;
   font-size:0.8vw;
   padding: 0.75% 0 0.5% 0;
+  cursor: pointer;
 }
 
 .bannerAnimation {
@@ -37,13 +42,11 @@ body {
 .Top {
   position: absolute;
   width: 100%;
-  overflow: hidden;
-  z-index: -1;
+  z-index: 1;
 }
 
 .Bottom {
   width: 100%;
-  overflow: hidden;
   float: bottom;
   position: fixed;
   bottom: 0px;
@@ -58,12 +61,8 @@ body {
   transform: rotate(90deg);
   transform-origin: left top 0;
   width: 100%;
-  margin-left: 2.5%;
+  margin-left: 2.4%;
   word-spacing: 8vw;
-}
-
-.bannerLeft span {
-  padding-left: 1.5%;
 }
 
 .bannerRight {
@@ -73,9 +72,9 @@ body {
   transform-origin: left top 0;
   width: 100%;
   word-spacing: 8vw;
-  overflow: hidden;
 }
 
-.bannerRight span {
-  padding-left: 1.5%;
+.firstTicker {
+  padding-left: 2.75%;
 }
+/******** END BANNERS ********/
