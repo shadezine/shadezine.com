@@ -26,7 +26,7 @@ body {
   font-family:'83', sans-serif;
   background: white;
   color: black;
-  border: 0.125vw solid black;
+  /* border: 0.125vw solid black; */
   letter-spacing: 0vw;
   font-size:0.8vw;
   padding: 0.75% 0 0.5% 0;
@@ -61,7 +61,7 @@ body {
   transform: rotate(90deg);
   transform-origin: left top 0;
   width: 100%;
-  margin-left: 2.4%;
+  margin-left: 2.35%;
   word-spacing: 8vw;
 }
 
@@ -78,3 +78,59 @@ body {
   padding-left: 2.75%;
 }
 /******** END BANNERS ********/
+
+
+/******** BOUNCE ********/
+.bouncing {
+  font-family:'83', sans-serif;
+  color: #fff;
+  font-size: 9vw;
+  -webkit-text-stroke: 0.15vw black;
+  letter-spacing:0.05em;
+  cursor: pointer;
+}
+
+.bounceAbout {
+  position: absolute;
+  left: 3%;
+  top: 6%;
+}
+
+.bounceAbout:hover {
+  color:red;
+}
+
+.bounceTeam {
+  position: absolute;
+  left: 60%;
+  top: 12%;
+}
+
+.bounceTeam:hover {
+  color: #FF00FF;
+}
+
+.bounceShop {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+
+.bounceTV {
+  position: absolute;
+  left: 20%;
+  top: 42.5%;
+}
+
+.bounceInternet {
+  position: absolute;
+  left: 2%;
+  top: 60%;
+}
+
+.bounceProjects {
+  position: absolute;
+  left: 30%;
+  top: 78%;
+}
+/******** END BOUNCE ********/
