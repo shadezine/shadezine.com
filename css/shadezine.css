@@ -91,9 +91,6 @@ body {
 }
 
 .bounceAbout {
-  position: absolute;
-  left: 3%;
-  top: 6%;
 }
 
 .bounceAbout:hover {
@@ -101,9 +98,7 @@ body {
 }
 
 .bounceTeam {
-  position: absolute;
-  left: 60%;
-  top: 12%;
+
 }
 
 .bounceTeam:hover {
@@ -111,9 +106,7 @@ body {
 }
 
 .bounceShop {
-  position: absolute;
-  left: 25%;
-  top: 25%;
+
 }
 
 .bounceShop:hover {
@@ -121,9 +114,7 @@ body {
 }
 
 .bounceTV {
-  position: absolute;
-  left: 20%;
-  top: 42.5%;
+
 }
 
 .bounceTV:hover {
@@ -131,9 +122,7 @@ body {
 }
 
 .bounceInternet {
-  position: absolute;
-  left: 2%;
-  top: 60%;
+
 }
 
 .bounceInternet:hover {
@@ -141,9 +130,7 @@ body {
 }
 
 .bounceProjects {
-  position: absolute;
-  left: 30%;
-  top: 78%;
+
 }
 
 .bounceProjects:hover {

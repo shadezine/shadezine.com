@@ -34,29 +34,53 @@ $(function () {
   /******** END MARQUEE ********/
 
   /******** BOUNCE ********/
-  $('.bounceAbout').DVDBounce({
-    inc:1
-  });
+  var bodyWidth = document.body.clientWidth
+  var bodyHeight = document.body.clientHeight;
 
-  $('.bounceTeam').DVDBounce({
-    inc:1
-  });
+  var randPosX;
+  var randPosY;
 
-  $('.bounceShop').DVDBounce({
-    inc:1
-  });
+  function randLoc(){
+    randPosX = Math.floor((Math.random()*bodyWidth));
+    randPosY = Math.floor((Math.random()*bodyHeight));
+  }
 
-  $('.bounceTV').DVDBounce({
-    inc:1
-  });
+  var bouncingDiv=[];
+  $(".bounce").each(function(){ bouncingDiv.push($(this));});
 
-  $('.bounceInternet').DVDBounce({
-    inc:1
-  });
+  for (var i = 0; i < bouncingDiv.length; i++) {
+    console.log(bouncingDiv[i]);
+    randLoc();
+    $(bouncingDiv[i]).css('left', randPosX);
+    $(bouncingDiv[i]).css('top', randPosY);
+    $(bouncingDiv[i]).DVDBounce({
+      inc:1
+    });
+  }
 
-  $('.bounceProjects').DVDBounce({
-    inc:1
-  });
+  // $('.bounceAbout').DVDBounce({
+  //   inc:1
+  // });
+  //
+  // $('.bounceTeam').DVDBounce({
+  //   inc:1
+  // });
+  //
+  // $('.bounceShop').DVDBounce({
+  //   inc:1
+  // });
+  //
+  // $('.bounceTV').DVDBounce({
+  //   inc:1
+  // });
+  //
+  // $('.bounceInternet').DVDBounce({
+  //   inc:1
+  // });
+  //
+  // $('.bounceProjects').DVDBounce({
+  //   inc:1
+  // });
   /******** END BOUNCE ********/
 
   /******** MENU ********/
