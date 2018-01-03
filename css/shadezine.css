@@ -61,7 +61,7 @@ body {
   transform: rotate(90deg);
   transform-origin: left top 0;
   width: 100%;
-  margin-left: 2.35%;
+  margin-left: 2.125%;
   word-spacing: 8vw;
 }
 
@@ -150,3 +150,20 @@ body {
   color: #FFFF00;
 }
 /******** END BOUNCE ********/
+
+/******** GIRLZ ********/
+.girlz {
+  width: 22.5%;
+  z-index: 1;
+  position: absolute;
+}
+
+.azha {
+  width: 25%;
+  top: 15%;
+}
+
+.apryl {
+  left: 75%;
+  top: 17.5%;
+}
