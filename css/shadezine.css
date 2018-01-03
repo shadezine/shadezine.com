@@ -116,10 +116,18 @@ body {
   top: 25%;
 }
 
+.bounceShop:hover {
+  color: red;
+}
+
 .bounceTV {
   position: absolute;
   left: 20%;
   top: 42.5%;
+}
+
+.bounceTV:hover {
+  color: #0000ff;
 }
 
 .bounceInternet {
@@ -128,9 +136,17 @@ body {
   top: 60%;
 }
 
+.bounceInternet:hover {
+  color: #00ff00;
+}
+
 .bounceProjects {
   position: absolute;
   left: 30%;
   top: 78%;
+}
+
+.bounceProjects:hover {
+  color: #FFFF00;
 }
 /******** END BOUNCE ********/

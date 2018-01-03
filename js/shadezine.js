@@ -83,6 +83,60 @@ $(function () {
     $(".bannerRight").html('<span class = "firstTicker">SHADEZINE</span> SHADEZINE SHADEZINE SHADEZINE SHADEZINE SHADEZINE ');
     $(".bannerLeft").html('<span class = "firstTicker">SHADEZINE</span> SHADEZINE SHADEZINE SHADEZINE SHADEZINE SHADEZINE ');
   });
+
+  $(".bounceShop").mouseover(function(){
+    $(".banner").css("background", "#FF0000");
+    $(".banner").css("color", "#FFF");
+    $(".bannerLeft").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP');
+    $(".bannerRight").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP');
+  });
+
+  $(".bounceShop").mouseout(function(){
+    $(".banner").css("background", "white");
+    $(".banner").css("color", "#000");
+    $(".bannerRight").html('<span class = "firstTicker">SHADEZINE</span> SHADEZINE SHADEZINE SHADEZINE SHADEZINE SHADEZINE ');
+    $(".bannerLeft").html('<span class = "firstTicker">SHADEZINE</span> SHADEZINE SHADEZINE SHADEZINE SHADEZINE SHADEZINE ');
+  });
+
+  $(".bounceTV").mouseover(function(){
+    $(".banner").css("background", "#0000FF");
+    $(".banner").css("color", "#FFF");
+    $(".bannerLeft").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV');
+    $(".bannerRight").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV');
+  });
+
+  $(".bounceTV").mouseout(function(){
+    $(".banner").css("background", "white");
+    $(".banner").css("color", "#000");
+    $(".bannerRight").html('<span class = "firstTicker">SHADEZINE</span> SHADEZINE SHADEZINE SHADEZINE SHADEZINE SHADEZINE ');
+    $(".bannerLeft").html('<span class = "firstTicker">SHADEZINE</span> SHADEZINE SHADEZINE SHADEZINE SHADEZINE SHADEZINE ');
+  });
+
+  $(".bounceInternet").mouseover(function(){
+    $(".banner").css("background", "#000");
+    $(".banner").css("color", "#00ff00");
+    $(".bannerLeft").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET');
+    $(".bannerRight").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET');
+  });
+
+  $(".bounceInternet").mouseout(function(){
+    $(".banner").css("background", "#fff");
+    $(".banner").css("color", "#000");
+    $(".bannerRight").html('<span class = "firstTicker">SHADEZINE</span> SHADEZINE SHADEZINE SHADEZINE SHADEZINE SHADEZINE ');
+    $(".bannerLeft").html('<span class = "firstTicker">SHADEZINE</span> SHADEZINE SHADEZINE SHADEZINE SHADEZINE SHADEZINE ');
+  });
+
+  $(".bounceProjects").mouseover(function(){
+    $(".banner").css("background", "#FFFF00");
+    $(".bannerLeft").html('<span class = "firstTicker">PROJECTS</span> PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS');
+    $(".bannerRight").html('<span class = "firstTicker">PROJECTS</span> PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS');
+  });
+
+  $(".bounceProjects").mouseout(function(){
+    $(".banner").css("background", "#fff");
+    $(".bannerRight").html('<span class = "firstTicker">SHADEZINE</span> SHADEZINE SHADEZINE SHADEZINE SHADEZINE SHADEZINE ');
+    $(".bannerLeft").html('<span class = "firstTicker">SHADEZINE</span> SHADEZINE SHADEZINE SHADEZINE SHADEZINE SHADEZINE ');
+  });
   /******** END MENU ********/
 
 
