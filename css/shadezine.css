@@ -79,7 +79,6 @@ body {
 }
 /******** END BANNERS ********/
 
-
 /******** BOUNCE ********/
 .bouncing {
   font-family:'83', sans-serif;
@@ -90,47 +89,24 @@ body {
   cursor: pointer;
 }
 
-.bounceAbout {
-}
-
 .bounceAbout:hover {
   color:red;
-}
-
-.bounceTeam {
-
 }
 
 .bounceTeam:hover {
   color: #FF00FF;
 }
 
-.bounceShop {
-
-}
-
 .bounceShop:hover {
   color: red;
-}
-
-.bounceTV {
-
 }
 
 .bounceTV:hover {
   color: #0000ff;
 }
 
-.bounceInternet {
-
-}
-
 .bounceInternet:hover {
   color: #00ff00;
-}
-
-.bounceProjects {
-
 }
 
 .bounceProjects:hover {
@@ -147,10 +123,9 @@ body {
 
 .azha {
   width: 25%;
-  top: 15%;
 }
 
 .apryl {
   left: 75%;
-  top: 17.5%;
 }
+/******** END GIRLZ ********/

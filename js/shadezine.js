@@ -34,22 +34,26 @@ $(function () {
   /******** END MARQUEE ********/
 
   /******** BOUNCE ********/
-  var bodyWidth = document.body.clientWidth
-  var bodyHeight = document.body.clientHeight;
+  var bodyWidth =  window.innerWidth;
+  var bodyHeight =  window.innerHeight;
 
   var randPosX;
   var randPosY;
 
   function randLoc(){
-    randPosX = Math.floor((Math.random()*bodyWidth));
-    randPosY = Math.floor((Math.random()*bodyHeight));
+    randPosX = Math.floor((Math.random()*(bodyWidth)));
+    randPosY = Math.floor((Math.random()*(bodyHeight)));
+  }
+
+  function randLocGirlz(){
+    randPosX = Math.floor((Math.random()*(bodyWidth/2)));
+    randPosY = Math.floor((Math.random()*(bodyHeight/2)));
   }
 
   var bouncingDiv=[];
   $(".bounce").each(function(){ bouncingDiv.push($(this));});
 
   for (var i = 0; i < bouncingDiv.length; i++) {
-    console.log(bouncingDiv[i]);
     randLoc();
     $(bouncingDiv[i]).css('left', randPosX);
     $(bouncingDiv[i]).css('top', randPosY);
@@ -163,5 +167,14 @@ $(function () {
   });
   /******** END MENU ********/
 
+  /******** GIRLZ ********/
+  var randomGirlz=[];
+  $(".girlz").each(function(){ randomGirlz.push($(this));});
+
+  for (var i = 0; i < randomGirlz.length; i++) {
+    randLoc();
+    $(randomGirlz[i]).css('left', randPosX);
+    $(randomGirlz[i]).css('top', randPosY);
+  }
 
 });
