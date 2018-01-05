@@ -21,22 +21,34 @@ body {
 }
 /******** END BODY ********/
 
+/******** LOGO ********/
+.logo {
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/******** END LOGO ********/
+
 /******** BANNERS ********/
 .banner {
-  font-family:'83', sans-serif;
+  font-family:'helvetica', sans-serif;
+  /* font-style: italic; */
+  font-weight: 700;
   background: white;
   color: black;
   /* border: 0.125vw solid black; */
   letter-spacing: 0vw;
-  font-size:0.8vw;
-  padding: 0.75% 0 0.5% 0;
+  font-size:1vw;
+  padding: 0.5% 0 0.5% 0;
   cursor: pointer;
 }
 
 .bannerAnimation {
   word-spacing: 15vw;
   overflow: hidden;
-  padding: 0.75% 0 0.5% 0;
+  padding: 0.5% 0 0.5% 0;
 }
 
 .Top {
@@ -61,7 +73,7 @@ body {
   transform: rotate(90deg);
   transform-origin: left top 0;
   width: 100%;
-  margin-left: 2.125%;
+  margin-left: 2.2%;
   word-spacing: 8vw;
 }
 
@@ -75,12 +87,13 @@ body {
 }
 
 .firstTicker {
-  padding-left: 2.75%;
+  padding-left: 3.25%;
 }
 /******** END BANNERS ********/
 
 /******** BOUNCE ********/
 .bouncing {
+  width: 10px;
   font-family:'83', sans-serif;
   color: #fff;
   font-size: 9vw;

@@ -129,8 +129,8 @@ $(function () {
   $(".bounceTV").mouseover(function(){
     $(".banner").css("background", "#0000FF");
     $(".banner").css("color", "#FFF");
-    $(".bannerLeft").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV');
-    $(".bannerRight").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV');
+    $(".bannerLeft").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
+    $(".bannerRight").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
   });
 
   $(".bounceTV").mouseout(function(){
@@ -172,7 +172,7 @@ $(function () {
   $(".girlz").each(function(){ randomGirlz.push($(this));});
 
   for (var i = 0; i < randomGirlz.length; i++) {
-    randLoc();
+    randLocGirlz();
     $(randomGirlz[i]).css('left', randPosX);
     $(randomGirlz[i]).css('top', randPosY);
   }
