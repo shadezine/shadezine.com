@@ -24,10 +24,14 @@ body {
 /******** LOGO ********/
 .logo {
   position: absolute;
-  width: 40%;
+  width: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.st0 {
+  fill:#ff0000;
 }
 /******** END LOGO ********/
 
@@ -46,7 +50,7 @@ body {
 }
 
 .bannerAnimation {
-  word-spacing: 15vw;
+  word-spacing: 12vw;
   overflow: hidden;
   padding: 0.5% 0 0.5% 0;
 }
@@ -74,7 +78,7 @@ body {
   transform-origin: left top 0;
   width: 100%;
   margin-left: 2.2%;
-  word-spacing: 8vw;
+  word-spacing: 7vw;
 }
 
 .bannerRight {
@@ -83,7 +87,7 @@ body {
   margin-left: 100%;
   transform-origin: left top 0;
   width: 100%;
-  word-spacing: 8vw;
+  word-spacing: 7vw;
 }
 
 .firstTicker {
