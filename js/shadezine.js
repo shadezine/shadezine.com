@@ -3,7 +3,6 @@ var gap = 200;
 var delay = -20000;
 
 $(function () {
-  var clicked = false;
   /******** MARQUEE ********/
   $('.marqueeTop').marquee({
     duration: duration,
@@ -75,13 +74,23 @@ $(function () {
   }
   /******** END BOUNCE ********/
 
+  var clickedAbout = false;
+  var clickedInternet = false;
+
   /******** HOME NAV ********/
   $(".banners").click(function(){
-    clicked = false;
+    clickedAbout = false;
+    clickedInternet = false;
     $(".bouncing").css("visibility", "visible");
     $(".st0").css("visibility", "visible");
     $("body").css("background-color", "#fff");
     $(".banner").css("background", "#fff");
+    $(".banner").css("color", "#000");
+    $(".aboutContainer").css("visibility", "hidden");
+    $(".apryl").css("visibility", "visible");
+    $(".azha").css("visibility", "visible");
+    $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+    $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
   });
   /******** END HOME NAV ********/
 
@@ -95,11 +104,11 @@ $(function () {
   });
 
   $(".bounceAbout").mouseout(function(){
-    if (!clicked) {
+    if (!clickedAbout) {
       $(".banner").css("background", "white");
+      $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
     }
-    $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
-    $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
     $(".st0").css("fill", "red");
   });
 
@@ -112,9 +121,7 @@ $(function () {
   });
 
   $(".bounceTeam").mouseout(function(){
-    if (!clicked) {
-      $(".banner").css("background", "white");
-    }
+    $(".banner").css("background", "white");
     $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
     $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
     $(".st0").css("fill", "red");
@@ -159,10 +166,12 @@ $(function () {
   });
 
   $(".bounceInternet").mouseout(function(){
-    $(".banner").css("background", "#fff");
-    $(".banner").css("color", "#000");
-    $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
-    $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+    if (!clickedInternet) {
+      $(".banner").css("background", "#fff");
+      $(".banner").css("color", "#000");
+      $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+    }
     $(".st0").css("fill", "#ff0000");
   });
 
@@ -182,22 +191,65 @@ $(function () {
   /******** END MENU ********/
 
   /******** CLICKS ********/
-  $(".bounceAbout").click(function(){
-    clicked = true;
-    $(".bouncing").css("visibility", "hidden");
-    $(".st0").css("visibility", "hidden");
-    $("body").css("background-color", "#ff0000");
-    $(".banner").css("background", "#FF0000");
-    // $('.banner').attr('style', 'background: #ff0000 !important');
-  });
+    /******** ABOUT ********/
+    $(".bounceAbout").click(function(){
+      clickedAbout = true;
+      $(".bouncing").css("visibility", "hidden");
+      $(".st0").css("visibility", "hidden");
+      $("body").css("background-color", "#ff0000");
+      $(".banner").css("background", "#FF0000");
+      $(".aboutContainer").css("visibility", "visible");
+      $(".bannerLeft").html('<span class = "firstTicker">ABOUT</span> ABOUT ABOUT ABOUT ABOUT ABOUT ');
+      $(".bannerRight").html('<span class = "firstTicker">ABOUT</span> ABOUT ABOUT ABOUT ABOUT ABOUT ');
+      // $('.banner').attr('style', 'background: #ff0000 !important');
+    });
 
-  $(".bounceTeam").click(function(){
-    clicked = true;
-    $(".bouncing").css("visibility", "hidden");
-    $(".st0").css("visibility", "hidden");
-    $("body").css("background-color", "#FF00FF");
-    $(".banner").css("background", "##FF00FF");
-    // $('.banner').attr('style', 'background: #ff0000 !important');
-  });
+    $(".azha").mouseover(function(){
+      $(".aboutShade").html('Azha Ayanna Luckman is a multidisciplinary artist, photographer, and creative director of SHADE. Luckman reclaims the gaze that has routinely catered to white or male narratives. She cares about representation of people of color in photography, media, and all visual arts + histories. Centered in these realms, her work creates space for black, queer youth like herself.');
+      if (clickedAbout) {
+        $(".apryl").css("visibility", "hidden");
+      }
+    });
+
+    $(".azha").mouseout(function(){
+      $(".aboutShade").html('Shade is a concept. An art house. A name cultivated out of a friendship between two creative women of color who saw avoid online and in the art world. Shade is currently run out of the Bay Area. Our space is ever changing and uncontainable.<br> <br> <a class = "email" href="mailto:contactshadezine@gmail.com?subject=feedback">contactshadezine@gmail.com</a>');
+      if (clickedAbout) {
+        $(".apryl").css("visibility", "visible");
+      }
+    });
+
+    $(".apryl").mouseover(function(){
+      $(".aboutShade").html('Apryl Fuentes is an editorial writer, copy editor, and cofounder of Shade. Her work includes creative direction, content curation, video direction and visual storytelling. Through a myriad of mediums, Fuentes documents the ever changing world around her in proximity to the identities and spaces she encompasses.');
+      if (clickedAbout) {
+        $(".azha").css("visibility", "hidden");
+      }
+    });
+
+    $(".apryl").mouseout(function(){
+      $(".aboutShade").html('Shade is a concept. An art house. A name cultivated out of a friendship between two creative women of color who saw avoid online and in the art world. Shade is currently run out of the Bay Area. Our space is ever changing and uncontainable.<br> <br> <a class = "email" href="mailto:contactshadezine@gmail.com?subject=feedback">contactshadezine@gmail.com</a>');
+      if (clickedAbout) {
+        $(".azha").css("visibility", "visible");
+      }
+    });
+    /******** END ABOUT ********/
+
+    /******** INTERNET *******/
+    $(".bounceInternet").click(function(){
+      clickedInternet = true;
+      $(".bouncing").css("visibility", "hidden");
+      $(".st0").css("visibility", "hidden");
+      $("body").css("background-color", "#000");
+      $(".banner").css("background", "#000");
+      $(".apryl").css("visibility", "hidden");
+      $(".azha").css("visibility", "hidden");
+      $(".bannerLeft").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET');
+      $(".bannerRight").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET');
+    });
+
+
+    // new CircleType(document.getElementById('instagram'));
+    // new CircleType(document.getElementById('twitter'));
+    /******** END INTERNET *******/
+
   /******** CLICKS ********/
 });
