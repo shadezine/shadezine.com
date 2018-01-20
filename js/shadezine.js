@@ -87,6 +87,7 @@ $(function () {
     $(".banner").css("background", "#fff");
     $(".banner").css("color", "#000");
     $(".aboutContainer").css("visibility", "hidden");
+    $(".internetContainer").css("visibility", "hidden");
     $(".apryl").css("visibility", "visible");
     $(".azha").css("visibility", "visible");
     $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
@@ -236,6 +237,7 @@ $(function () {
     /******** INTERNET *******/
     $(".bounceInternet").click(function(){
       clickedInternet = true;
+      $(".internetContainer").css("visibility", "visible");
       $(".bouncing").css("visibility", "hidden");
       $(".st0").css("visibility", "hidden");
       $("body").css("background-color", "#000");

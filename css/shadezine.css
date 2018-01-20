@@ -180,13 +180,63 @@ body {
 .internetContainer {
   font-family:'83', sans-serif;
   color: #000;
+  position: absolute;
+  top: 50%;
+  left: 53.5%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  visibility: hidden;
+}
+.instagram {
+  position: relative;
+  left: 10%;
+  width: 45%;
+  -webkit-animation-name: rotateLeft;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
 }
 
-#instagram {
-  font-size: 3.25vw;
-  letter-spacing: 1vw;
+.instagram:hover, .tumblr:hover, .twitter:hover, .youtube:hover {
+  -webkit-animation-play-state: paused;
 }
 
+.tumblr {
+  position: absolute;
+  left: 10%;
+  top:10%;
+  width: 15%;
+  -webkit-animation-name: rotateRight;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+.twitter {
+  top:20%;
+  position: absolute;
+  width: 37.5%;
+  -webkit-animation-name: rotateRight;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+.youtube {
+  top:10%;
+  position: absolute;
+  width: 20%;
+  -webkit-animation-name: rotateLeft;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
 
+@-webkit-keyframes rotateLeft {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0deg); }
+}
 
+@-webkit-keyframes rotateRight {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
 /******** END INTERNET ********/
