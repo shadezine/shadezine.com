@@ -197,10 +197,6 @@ body {
   -webkit-animation-timing-function: linear;
 }
 
-.instagram:hover, .tumblr:hover, .twitter:hover, .youtube:hover {
-  -webkit-animation-play-state: paused;
-}
-
 .tumblr {
   position: absolute;
   left: 10%;
@@ -211,6 +207,7 @@ body {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
 }
+
 .twitter {
   top:20%;
   position: absolute;
@@ -220,6 +217,7 @@ body {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
 }
+
 .youtube {
   top:10%;
   position: absolute;
@@ -239,4 +237,54 @@ body {
     from { -webkit-transform: rotate(0deg); }
     to { -webkit-transform: rotate(360deg); }
 }
+
+.instagram:hover, .tumblr:hover, .twitter:hover, .youtube:hover {
+  -webkit-animation-play-state: paused;
+}
 /******** END INTERNET ********/
+
+/******** TEAM ********/
+.teamContainer {
+  visibility: hidden;
+}
+
+.bouncingTeam {
+  color: black;
+  background: white;
+  width: 30%;
+  font-size: 2.5vw;
+  font-family: '63';
+  border: 0.25vw solid black;
+}
+
+.bouncingTeam:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10%;
+  left: 5%;
+
+}
+
+.bouncingBigTeam {
+  width: 10px;
+  font-family:'83', sans-serif;
+  color: #FF00FF;
+  font-size: 9vw;
+  -webkit-text-stroke: 0.15vw black;
+  letter-spacing:0.05em;
+}
+
+.bounceApryl {
+  background-image: url("/images/logo.jpg");
+  background-size:contain;
+}
+
+
+/******** END TEAM ********/

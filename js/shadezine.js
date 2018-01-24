@@ -72,10 +72,23 @@ $(function () {
       inc:1
     });
   }
+
+  var bouncingTeamDiv=[];
+  $(".bouncingTeam").each(function(){ bouncingTeamDiv.push($(this));});
+
+  for (var i = 0; i < bouncingTeamDiv.length; i++) {
+    randLocGirlz();
+    $(bouncingTeamDiv[i]).css('left', randPosX);
+    $(bouncingTeamDiv[i]).css('top', randPosY);
+    $(bouncingTeamDiv[i]).DVDBounce({
+      inc:0
+    });
+  }
   /******** END BOUNCE ********/
 
   var clickedAbout = false;
   var clickedInternet = false;
+  var clickedTeam = false;
 
   /******** HOME NAV ********/
   $(".banners").click(function(){
@@ -88,6 +101,7 @@ $(function () {
     $(".banner").css("color", "#000");
     $(".aboutContainer").css("visibility", "hidden");
     $(".internetContainer").css("visibility", "hidden");
+    $(".teamContainer").css("visibility", "hidden");
     $(".apryl").css("visibility", "visible");
     $(".azha").css("visibility", "visible");
     $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
@@ -122,9 +136,11 @@ $(function () {
   });
 
   $(".bounceTeam").mouseout(function(){
-    $(".banner").css("background", "white");
-    $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
-    $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+    if (!clickedTeam) {
+      $(".banner").css("background", "white");
+      $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+    }
     $(".st0").css("fill", "red");
   });
 
@@ -247,11 +263,49 @@ $(function () {
       $(".bannerLeft").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET');
       $(".bannerRight").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET');
     });
+    /******** END INTERNET ********/
 
+    /******** TEAM ********/
+    $(".bounceTeam").click(function(){
+      clickedTeam = true;
+      $(".teamContainer").css("visibility", "visible");
+      $(".bouncing").css("visibility", "hidden");
+      $(".st0").css("visibility", "hidden");
+      $("body").css("background-color", "#FF00FF");
+      $(".banner").css("background", "#FF00FF");
+      $(".apryl").css("visibility", "hidden");
+      $(".azha").css("visibility", "hidden");
+      $(".bannerLeft").html('<span class = "firstTicker">TEAM</span> TEAM TEAM TEAM TEAM TEAM ');
+      $(".bannerRight").html('<span class = "firstTicker">TEAM</span> TEAM TEAM TEAM TEAM TEAM ');
+    });
 
-    // new CircleType(document.getElementById('instagram'));
-    // new CircleType(document.getElementById('twitter'));
-    /******** END INTERNET *******/
+    // $(".bounceApryl").click(function(){
+    //   $(".bounceApryl").css("z-index", "3");
+    //   $(".bounceAzha").css("z-index", "2");
+    //   $(".bounceRewina").css("z-index", "2");
+    //   $(".bounceBritney").css("z-index", "2");
+    //   $(".bouncing").css("z-index", "1");
+    // });
+    //
+    // $(".bounceAzha").click(function(){
+    //   $(".bounceAzha").css("z-index", "3");
+    //   $(".bounceApryl").css("z-index", "2");
+    //   $(".bounceRewina").css("z-index", "2");
+    //   $(".bounceBritney").css("z-index", "2");
+    //   $(".bouncing").css("z-index", "1");
+    // });
 
+    // var forward=[];
+    // $(".bouncingTeam").each(function(){ forward.push($(this));});
+    //
+    // for (var i = 0; i < forward.length; i++) {
+    //   $(forward[i]).click(function(){
+    //     console.log("clicked");
+    //     var z = $(forward[i]).css("zIndex");
+    //     console.log("z-index = " + z);
+    //   });
+    // }
+
+    /******** END TEAM ********/
   /******** CLICKS ********/
 });
