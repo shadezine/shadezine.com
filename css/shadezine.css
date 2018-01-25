@@ -290,22 +290,22 @@ body {
 }
 
 .bounceApryl:hover {
-  background-image: url("/images/logo.jpg");
+  background-image: url("./images/logo.jpg");
   background-size:contain;
 }
 
 .bounceAzha:hover {
-  background-image: url("/images/logo.jpg");
+  background-image: url("./images/logo.jpg");
   background-size:contain;
 }
 
 .bounceRewina:hover {
-  background-image: url("/images/logo.jpg");
+  background-image: url("./images/logo.jpg");
   background-size:contain;
 }
 
 .bounceBritney:hover {
-  background-image: url("/images/logo.jpg");
+  background-image: url("./images/logo.jpg");
   background-size:contain;
 }
 /******** END TEAM ********/
