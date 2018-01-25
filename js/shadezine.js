@@ -101,6 +101,7 @@ $(function () {
     $(".banner").css("color", "#000");
     $(".aboutContainer").css("visibility", "hidden");
     $(".internetContainer").css("visibility", "hidden");
+    $(".content").css("visibility", "hidden");
     $(".teamContainer").css("visibility", "hidden");
     $(".apryl").css("visibility", "visible");
     $(".azha").css("visibility", "visible");
@@ -268,6 +269,7 @@ $(function () {
     /******** TEAM ********/
     $(".bounceTeam").click(function(){
       clickedTeam = true;
+      $(".content").css("visibility", "visible");
       $(".teamContainer").css("visibility", "visible");
       $(".bouncing").css("visibility", "hidden");
       $(".st0").css("visibility", "hidden");
@@ -294,17 +296,75 @@ $(function () {
     //   $(".bounceBritney").css("z-index", "2");
     //   $(".bouncing").css("z-index", "1");
     // });
-
-    // var forward=[];
-    // $(".bouncingTeam").each(function(){ forward.push($(this));});
     //
-    // for (var i = 0; i < forward.length; i++) {
-    //   $(forward[i]).click(function(){
-    //     console.log("clicked");
-    //     var z = $(forward[i]).css("zIndex");
-    //     console.log("z-index = " + z);
-    //   });
-    // }
+    // $(".bounceRewina").click(function(){
+    //   $(".bounceAzha").css("z-index", "2");
+    //   $(".bounceApryl").css("z-index", "2");
+    //   $(".bounceRewina").css("z-index", "3");
+    //   $(".bounceBritney").css("z-index", "2");
+    //   $(".bouncing").css("z-index", "1");
+    // });
+    //
+    // $(".bounceBritney").click(function(){
+    //   $(".bounceAzha").css("z-index", "2");
+    //   $(".bounceApryl").css("z-index", "2");
+    //   $(".bounceRewina").css("z-index", "2");
+    //   $(".bounceBritney").css("z-index", "3");
+    //   $(".bouncing").css("z-index", "1");
+    // });
+
+    $(".bounceApryl").mouseover(function(){
+      $(".contentApryl").css("visibility", "hidden");
+      $(".bounceApryl").css("z-index", "3");
+      $(".bounceAzha").css("z-index", "2");
+      $(".bounceRewina").css("z-index", "2");
+      $(".bounceBritney").css("z-index", "2");
+      $(".bouncing").css("z-index", "1");
+    });
+
+    $(".bounceApryl").mouseout(function(){
+      $(".contentApryl").css("visibility", "visible");
+    });
+
+    $(".bounceAzha").mouseover(function(){
+      $(".bounceAzha").css("z-index", "3");
+      $(".bounceApryl").css("z-index", "2");
+      $(".bounceRewina").css("z-index", "2");
+      $(".bounceBritney").css("z-index", "2");
+      $(".bouncing").css("z-index", "1");
+      $(".contentAzha").css("visibility", "hidden");
+    });
+
+    $(".bounceAzha").mouseout(function(){
+      $(".contentAzha").css("visibility", "visible");
+    });
+
+    $(".bounceRewina").mouseover(function(){
+      $(".contentRewina").css("visibility", "hidden");
+      $(".bounceAzha").css("z-index", "2");
+      $(".bounceApryl").css("z-index", "2");
+      $(".bounceRewina").css("z-index", "3");
+      $(".bounceBritney").css("z-index", "2");
+      $(".bouncing").css("z-index", "1");
+    });
+
+    $(".bounceRewina").mouseout(function(){
+      $(".contentRewina").css("visibility", "visible");
+    });
+
+    $(".bounceBritney").mouseover(function(){
+      $(".bounceAzha").css("z-index", "2");
+      $(".bounceApryl").css("z-index", "2");
+      $(".bounceRewina").css("z-index", "2");
+      $(".bounceBritney").css("z-index", "3");
+      $(".bouncing").css("z-index", "1");
+      $(".contentBritney").css("visibility", "hidden");
+    });
+
+    $(".bounceBritney").mouseout(function(){
+      $(".contentBritney").css("visibility", "visible");
+    });
+
 
     /******** END TEAM ********/
   /******** CLICKS ********/
