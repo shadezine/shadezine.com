@@ -89,11 +89,14 @@ $(function () {
   var clickedAbout = false;
   var clickedInternet = false;
   var clickedTeam = false;
+  var clickedTV = false;
 
   /******** HOME NAV ********/
   $(".banners").click(function(){
     clickedAbout = false;
     clickedInternet = false;
+    clickedTeam = false;
+    clickedTV = false;
     $(".bouncing").css("visibility", "visible");
     $(".st0").css("visibility", "visible");
     $("body").css("background-color", "#fff");
@@ -103,6 +106,7 @@ $(function () {
     $(".internetContainer").css("visibility", "hidden");
     $(".content").css("visibility", "hidden");
     $(".teamContainer").css("visibility", "hidden");
+    $(".tvContainer").css("visibility", "hidden");
     $(".apryl").css("visibility", "visible");
     $(".azha").css("visibility", "visible");
     $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
@@ -168,10 +172,12 @@ $(function () {
   });
 
   $(".bounceTV").mouseout(function(){
-    $(".banner").css("background", "white");
-    $(".banner").css("color", "#000");
-    $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
-    $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+    if (!clickedTV) {
+      $(".banner").css("background", "white");
+      $(".banner").css("color", "#000");
+      $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+    }
     $(".st0").css("fill", "#FF0000");
   });
 
@@ -367,5 +373,20 @@ $(function () {
 
 
     /******** END TEAM ********/
+
+    /******** TV ********/
+    $(".bounceTV").click(function(){
+      clickedTV = true;
+      $(".tvContainer").css("visibility", "visible");
+      $(".bouncing").css("visibility", "hidden");
+      $(".st0").css("visibility", "hidden");
+      $("body").css("background-color", "#0000FF");
+      $(".banner").css("background", "#0000FF");
+      $(".apryl").css("visibility", "hidden");
+      $(".azha").css("visibility", "hidden");
+      $(".bannerLeft").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
+      $(".bannerRight").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
+    });
+    /******** END TV ********/
   /******** CLICKS ********/
 });
