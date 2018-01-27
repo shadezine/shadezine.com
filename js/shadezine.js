@@ -107,6 +107,8 @@ $(function () {
     $(".content").css("visibility", "hidden");
     $(".teamContainer").css("visibility", "hidden");
     $(".tvContainer").css("visibility", "hidden");
+    $("iframe").css("visibility", "hidden");
+    $("#backgroundTV").attr('src', 'images/whiteNoise.gif');
     $(".apryl").css("visibility", "visible");
     $(".azha").css("visibility", "visible");
     $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
