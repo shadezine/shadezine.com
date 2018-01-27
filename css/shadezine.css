@@ -330,7 +330,7 @@ iframe {
   width: 500px;
   height: 280px;
   border-radius: 50px;
-  top: 16.5%;
+  top: 17.5%;
   left: 25.5%;
   z-index: 1;
   visibility: hidden;
@@ -363,42 +363,45 @@ button {
   position: absolute;
   top: 1.5%;
   left: 70.25%;
-  background: #ff0000;
-  border-radius: 0.25vw;
+  border: 0.05vw solid #ff0000;
+  background-color: transparent;
+  border-radius: 0.15vw;
   padding: 0.55% 1.05%;
   text-decoration: none;
 }
 
 .channel1:hover {
-  background: #ffff00;
+  background: #ff0000;
 }
 
 .channel2 {
   position: absolute;
   top: 1.5%;
-  left: 74.6%;
-  background: #00ff00;
-  border-radius: 0.25vw;
+  left: 74.5%;
+  border: 0.05vw solid #00ff00;
+  background-color: transparent;
+  border-radius: 0.15vw;
   padding: 0.55% 1.05%;
   text-decoration: none;
 }
 
 .channel2:hover {
-  background: #ffff00;
+  background: #00ff00;
 }
 
 .channel3 {
   position: absolute;
   top: 7%;
   left: 70.25%;
-  background: #0000ff;
-  border-radius: 0.25vw;
+  border: 0.05vw solid #0000ff;
+  background-color: transparent;
+  border-radius: 0.15vw;
   padding: 0.55% 1.05%;
   text-decoration: none;
 }
 
 .channel3:hover {
-  background: #ffff00;
+  background: #0000ff;
 }
 
 .bouncingBigTV {
