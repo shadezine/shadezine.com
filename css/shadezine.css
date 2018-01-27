@@ -313,11 +313,27 @@ body {
 /******** TV ********/
 .tvContainer {
   visibility: hidden;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .tv {
-  padding-top: 3.75%;
+  margin-top: -4.5%;
   text-align: center;
+}
+
+iframe {
+  position: absolute;
+  width: 500px;
+  height: 280px;
+  border-radius: 50px;
+  top: 16.5%;
+  left: 25.5%;
+  z-index: 1;
+  visibility: hidden;
 }
 
 .whiteNoise {
@@ -327,9 +343,102 @@ body {
   height: 10%;
 }
 
+.black {
+  width: 58%;
+  height: 10%;
+  background-color: black;
+}
+
 .tv001 {
   position: absolute;
   width: 60%;
 }
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+.channel1 {
+  position: absolute;
+  top: 1.5%;
+  left: 70.25%;
+  background: #ff0000;
+  border-radius: 0.25vw;
+  padding: 0.55% 1.05%;
+  text-decoration: none;
+}
+
+.channel1:hover {
+  background: #ffff00;
+}
+
+.channel2 {
+  position: absolute;
+  top: 1.5%;
+  left: 74.6%;
+  background: #00ff00;
+  border-radius: 0.25vw;
+  padding: 0.55% 1.05%;
+  text-decoration: none;
+}
+
+.channel2:hover {
+  background: #ffff00;
+}
+
+.channel3 {
+  position: absolute;
+  top: 7%;
+  left: 70.25%;
+  background: #0000ff;
+  border-radius: 0.25vw;
+  padding: 0.55% 1.05%;
+  text-decoration: none;
+}
+
+.channel3:hover {
+  background: #ffff00;
+}
+
+.bouncingBigTV {
+  width: 10px;
+  font-family:'83', sans-serif;
+  color: #0000FF;
+  font-size: 9vw;
+  -webkit-text-stroke: 0.15vw black;
+  letter-spacing:0.05em;
+}
+
+.channel {
+  visibility: hidden;
+}
+
+/******** VIMEO RESPONSIVE ********/
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
+}
+
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0%;
+  width: 50%;
+  height: 55%;
+}
+/******** END VIMEO RESPONSIVE ********/
 
 /******** END TV ********/

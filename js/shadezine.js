@@ -387,6 +387,23 @@ $(function () {
       $(".bannerLeft").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
       $(".bannerRight").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
     });
+
+    $(".channel1").click(function(){
+      $("iframe").css("visibility", "visible");
+      $("#backgroundTV").attr('src', 'images/bg.png');
+      $("iframe").attr('src', 'https://www.youtube.com/embed/w8x7tPK3T1c');
+    });
+
+    $(".channel2").click(function(){
+      $("iframe").css("visibility", "visible");
+      $("#backgroundTV").attr('src', 'images/bg.png');
+      $("iframe").attr('src', 'https://www.youtube.com/embed/NseWbkSU2go');
+    });
+
+    $(".channel3").click(function(){
+      $("iframe").css("visibility", "hidden");
+      $("#backgroundTV").attr('src', 'images/whiteNoise.gif');
+    });
     /******** END TV ********/
   /******** CLICKS ********/
 });
