@@ -90,6 +90,7 @@ $(function () {
   var clickedInternet = false;
   var clickedTeam = false;
   var clickedTV = false;
+  var clickedShop = false;
 
   /******** HOME NAV ********/
   $(".banners").click(function(){
@@ -97,6 +98,7 @@ $(function () {
     clickedInternet = false;
     clickedTeam = false;
     clickedTV = false;
+    clickedShop = false;
     $(".bouncing").css("visibility", "visible");
     $(".st0").css("visibility", "visible");
     $("body").css("background-color", "#fff");
@@ -107,6 +109,7 @@ $(function () {
     $(".content").css("visibility", "hidden");
     $(".teamContainer").css("visibility", "hidden");
     $(".tvContainer").css("visibility", "hidden");
+    $(".shopContainer").css("visibility", "hidden");
     $("iframe").css("visibility", "hidden");
     $("#backgroundTV").attr('src', 'images/whiteNoise.gif');
     $(".apryl").css("visibility", "visible");
@@ -159,10 +162,13 @@ $(function () {
   });
 
   $(".bounceShop").mouseout(function(){
-    $(".banner").css("background", "white");
-    $(".banner").css("color", "#000");
-    $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
-    $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+    if (!clickedShop) {
+      $(".banner").css("background", "white");
+      $(".banner").css("color", "#000");
+      $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+    }
+    $(".st0").css("fill", "#FF0000");
   });
 
   $(".bounceTV").mouseover(function(){
@@ -407,5 +413,21 @@ $(function () {
       $("#backgroundTV").attr('src', 'images/whiteNoise.gif');
     });
     /******** END TV ********/
+
+    /******** SHOP ********/
+    $(".bounceShop").click(function(){
+      clickedShop = true;
+      $(".bouncing").css("visibility", "hidden");
+      $(".st0").css("visibility", "hidden");
+      $("body").css("background-color", "#ff0000");
+      $(".banner").css("background", "#FF0000");
+      $(".shopContainer").css("visibility", "visible");
+      $(".apryl").css("visibility", "hidden");
+      $(".azha").css("visibility", "hidden");
+      $(".bannerLeft").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP ');
+      $(".bannerRight").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP ');
+    });
+    /******** END SHOP ********/
+
   /******** CLICKS ********/
 });

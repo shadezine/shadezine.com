@@ -311,49 +311,6 @@ body {
 /******** END TEAM ********/
 
 /******** TV ********/
-.tvContainer {
-  visibility: hidden;
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.tv {
-  margin-top: -4.5%;
-  text-align: center;
-}
-
-iframe {
-  position: absolute;
-  width: 500px;
-  height: 280px;
-  border-radius: 50px;
-  top: 17.5%;
-  left: 25.5%;
-  z-index: 1;
-  visibility: hidden;
-}
-
-.whiteNoise {
-  padding-top: 2%;
-  padding-left: 1%;
-  width: 58%;
-  height: 10%;
-}
-
-.black {
-  width: 58%;
-  height: 10%;
-  background-color: black;
-}
-
-.tv001 {
-  position: absolute;
-  width: 60%;
-}
-
 button {
   cursor: pointer;
   outline: none;
@@ -417,7 +374,50 @@ button {
   visibility: hidden;
 }
 
-/******** VIMEO RESPONSIVE ********/
+.tvContainer {
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tv {
+  margin-top: -4.5%;
+  text-align: center;
+}
+
+iframe {
+  position: absolute;
+  width: 38%;
+  height: 58%;
+  border-radius: 50px;
+  top: 18.5%;
+  left: 25.75%;
+  z-index: 1;
+  visibility: hidden;
+}
+
+.whiteNoise {
+  padding-top: 2%;
+  padding-left: 1%;
+  width: 58%;
+  height: 10%;
+}
+
+.black {
+  width: 58%;
+  height: 10%;
+  background-color: black;
+}
+
+.tv001 {
+  position: absolute;
+  width: 60%;
+}
+
+/* ******* VIMEO RESPONSIVE ********/
 .intrinsic-container {
   position: relative;
   height: 0;
@@ -430,7 +430,7 @@ button {
   padding-bottom: 56.25%;
 }
 
-/* 4x3 Aspect Ratio */
+/* 4x3 Aspect Ratio */2
 .intrinsic-container-4x3 {
   padding-bottom: 75%;
 }
@@ -441,7 +441,51 @@ button {
   left: 0%;
   width: 50%;
   height: 55%;
+  border-radius: 50px;
 }
-/******** END VIMEO RESPONSIVE ********/
-
+/******** END VIMEO RESPONSIVE ******* */
 /******** END TV ********/
+
+/******** SHOP ********/
+.shopContainer {
+  font-family:'83', sans-serif;
+  color: #000;
+  font-size: 3.25vw;
+  letter-spacing:0.05em;
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.bouncingBigShop {
+  width: 10px;
+  font-family:'83', sans-serif;
+  color: #ff0000;
+  font-size: 9vw;
+  -webkit-text-stroke: 0.15vw black;
+  letter-spacing:0.05em;
+}
+
+.tshirts {
+  position: relative;
+}
+
+.tshirt {
+  float: left;
+  width: 33%;
+}
+
+.tshirt img {
+  width: 100%;
+}
+
+.tshirt h1 {
+  font-family: helvetica;
+  font-size: 1.5vw;
+  font-weight: 400;
+  padding-left: 38%;
+}
+/******** END SHOP ********/
