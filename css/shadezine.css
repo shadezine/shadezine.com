@@ -463,7 +463,7 @@ iframe {
 .bouncingBigShop {
   width: 10px;
   font-family:'83', sans-serif;
-  color: #ff0000;
+  color: #fff;
   font-size: 9vw;
   -webkit-text-stroke: 0.15vw black;
   letter-spacing:0.05em;

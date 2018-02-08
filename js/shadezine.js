@@ -148,6 +148,7 @@ $(function () {
   $(".bounceTeam").mouseout(function(){
     if (!clickedTeam) {
       $(".banner").css("background", "white");
+      $(".banner").css("borderColor", "white");
       $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
       $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
     }
@@ -156,7 +157,7 @@ $(function () {
 
   $(".bounceShop").mouseover(function(){
     $(".banner").css("background", "#FF0000");
-    $(".banner").css("color", "#FFF");
+    $(".banner").css("color", "#000");
     $(".bannerLeft").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP');
     $(".bannerRight").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP');
   });
@@ -419,8 +420,8 @@ $(function () {
       clickedShop = true;
       $(".bouncing").css("visibility", "hidden");
       $(".st0").css("visibility", "hidden");
-      $("body").css("background-color", "#ff0000");
-      $(".banner").css("background", "#FF0000");
+      $("body").css("background-color", "#fff");
+      $(".banner").css("background", "#fff");
       $(".shopContainer").css("visibility", "visible");
       $(".apryl").css("visibility", "hidden");
       $(".azha").css("visibility", "hidden");
