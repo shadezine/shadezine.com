@@ -1,0 +1,70 @@
+/******** MOBILE ********/
+@media only screen and (max-width: 500px) {
+  .logo {
+    width: 90%;
+  }
+
+  .banner {
+    font-size:2.75vw;
+  }
+
+  .bannerLeft {
+    width: 500%;
+    margin-left: 4.5%;
+  }
+
+  .bannerRight {
+    width: 500%;
+  }
+
+  .girlz {
+    width: 40%;
+  }
+
+  .bouncing {
+    font-size: 12vw;
+  }
+
+  .bounce {
+    font-size: 12vw;
+  }
+
+  .aboutContainer {
+    font-size: 5.5vw;
+    width: 87.5%;
+  }
+
+  .email {
+    letter-spacing:none;
+    font-size: 4vw;
+  }
+
+  .instagram {
+    position: absolute;
+    bottom:50%;
+    left: 0%;
+    width: 75%;
+  }
+
+  .tumblr {
+    position: absolute;
+    left: 30%;
+    margin-top:35%;
+    width: 40.5%;
+  }
+
+  .twitter {
+    left:50%;
+    position: absolute;
+    width: 55.5%;
+  }
+
+  .youtube {
+    position: absolute;
+    margin-top:-10%;
+    left: 8%;
+    width: 45%;
+  }
+
+}
+/************************/

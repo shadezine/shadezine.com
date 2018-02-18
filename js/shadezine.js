@@ -114,8 +114,8 @@ $(function () {
     $("#backgroundTV").attr('src', 'images/whiteNoise.gif');
     $(".apryl").css("visibility", "visible");
     $(".azha").css("visibility", "visible");
-    $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
-    $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+    $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
+    $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
   });
   /******** END HOME NAV ********/
 
@@ -123,24 +123,24 @@ $(function () {
   /******** MENU ********/
   $(".bounceAbout").mouseover(function(){
     $(".banner").css("background", "red");
-    $(".bannerLeft").html('<span class = "firstTicker">ABOUT</span> ABOUT ABOUT ABOUT ABOUT ABOUT ');
-    $(".bannerRight").html('<span class = "firstTicker">ABOUT</span> ABOUT ABOUT ABOUT ABOUT ABOUT ');
+    $(".bannerLeft").html('<span class = "firstTicker">ABOUT</span> ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ');
+    $(".bannerRight").html('<span class = "firstTicker">ABOUT</span> ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ');
     $(".st0").css("fill", "red");
   });
 
   $(".bounceAbout").mouseout(function(){
     if (!clickedAbout) {
       $(".banner").css("background", "white");
-      $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
-      $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     }
     $(".st0").css("fill", "red");
   });
 
   $(".bounceTeam").mouseover(function(){
     $(".banner").css("background", "#FF00FF");
-    $(".bannerLeft").html('<span class = "firstTicker">TEAM</span> TEAM TEAM TEAM TEAM TEAM ');
-    $(".bannerRight").html('<span class = "firstTicker">TEAM</span> TEAM TEAM TEAM TEAM TEAM ');
+    $(".bannerLeft").html('<span class = "firstTicker">TEAM</span> TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM ');
+    $(".bannerRight").html('<span class = "firstTicker">TEAM</span> TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM ');
     $(".st0").css("fill", "#FF00FF");
 
   });
@@ -148,9 +148,8 @@ $(function () {
   $(".bounceTeam").mouseout(function(){
     if (!clickedTeam) {
       $(".banner").css("background", "white");
-      $(".banner").css("borderColor", "white");
-      $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
-      $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     }
     $(".st0").css("fill", "red");
   });
@@ -158,16 +157,16 @@ $(function () {
   $(".bounceShop").mouseover(function(){
     $(".banner").css("background", "#FF0000");
     $(".banner").css("color", "#000");
-    $(".bannerLeft").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP');
-    $(".bannerRight").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP');
+    $(".bannerLeft").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP');
+    $(".bannerRight").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP');
   });
 
   $(".bounceShop").mouseout(function(){
     if (!clickedShop) {
       $(".banner").css("background", "white");
       $(".banner").css("color", "#000");
-      $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
-      $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     }
     $(".st0").css("fill", "#FF0000");
   });
@@ -175,8 +174,8 @@ $(function () {
   $(".bounceTV").mouseover(function(){
     $(".banner").css("background", "#0000FF");
     $(".banner").css("color", "#FFF");
-    $(".bannerLeft").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
-    $(".bannerRight").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
+    $(".bannerLeft").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
+    $(".bannerRight").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
     $(".st0").css("fill", "#0000FF");
   });
 
@@ -184,8 +183,8 @@ $(function () {
     if (!clickedTV) {
       $(".banner").css("background", "white");
       $(".banner").css("color", "#000");
-      $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
-      $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     }
     $(".st0").css("fill", "#FF0000");
   });
@@ -193,8 +192,8 @@ $(function () {
   $(".bounceInternet").mouseover(function(){
     $(".banner").css("background", "#000");
     $(".banner").css("color", "#00ff00");
-    $(".bannerLeft").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET');
-    $(".bannerRight").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET');
+    $(".bannerLeft").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET');
+    $(".bannerRight").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET');
     $(".st0").css("fill", "#00FF00");
   });
 
@@ -202,23 +201,23 @@ $(function () {
     if (!clickedInternet) {
       $(".banner").css("background", "#fff");
       $(".banner").css("color", "#000");
-      $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
-      $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     }
     $(".st0").css("fill", "#ff0000");
   });
 
   $(".bounceProjects").mouseover(function(){
     $(".banner").css("background", "#FFFF00");
-    $(".bannerLeft").html('<span class = "firstTicker">PROJECTS</span> PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS');
-    $(".bannerRight").html('<span class = "firstTicker">PROJECTS</span> PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS');
+    $(".bannerLeft").html('<span class = "firstTicker">PROJECTS</span>  PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS');
+    $(".bannerRight").html('<span class = "firstTicker">PROJECTS</span> PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS PROJECTS');
     $(".st0").css("fill", "#ffff00");
   });
 
   $(".bounceProjects").mouseout(function(){
     $(".banner").css("background", "#fff");
-    $(".bannerRight").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
-    $(".bannerLeft").html('<span class = "firstTicker">SHADE</span> SHADE SHADE SHADE SHADE SHADE ');
+    $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
+    $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     $(".st0").css("fill", "#ff0000");
   });
   /******** END MENU ********/
@@ -232,8 +231,8 @@ $(function () {
       $("body").css("background-color", "#ff0000");
       $(".banner").css("background", "#FF0000");
       $(".aboutContainer").css("visibility", "visible");
-      $(".bannerLeft").html('<span class = "firstTicker">ABOUT</span> ABOUT ABOUT ABOUT ABOUT ABOUT ');
-      $(".bannerRight").html('<span class = "firstTicker">ABOUT</span> ABOUT ABOUT ABOUT ABOUT ABOUT ');
+      $(".bannerLeft").html('<span class = "firstTicker">ABOUT</span> ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ');
+      $(".bannerRight").html('<span class = "firstTicker">ABOUT</span> ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ');
       // $('.banner').attr('style', 'background: #ff0000 !important');
     });
 
@@ -276,8 +275,8 @@ $(function () {
       $(".banner").css("background", "#000");
       $(".apryl").css("visibility", "hidden");
       $(".azha").css("visibility", "hidden");
-      $(".bannerLeft").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET');
-      $(".bannerRight").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET');
+      $(".bannerLeft").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET');
+      $(".bannerRight").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET');
     });
     /******** END INTERNET ********/
 
@@ -292,8 +291,8 @@ $(function () {
       $(".banner").css("background", "#FF00FF");
       $(".apryl").css("visibility", "hidden");
       $(".azha").css("visibility", "hidden");
-      $(".bannerLeft").html('<span class = "firstTicker">TEAM</span> TEAM TEAM TEAM TEAM TEAM ');
-      $(".bannerRight").html('<span class = "firstTicker">TEAM</span> TEAM TEAM TEAM TEAM TEAM ');
+      $(".bannerLeft").html('<span class = "firstTicker">TEAM</span> TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM ');
+      $(".bannerRight").html('<span class = "firstTicker">TEAM</span> TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM TEAM ');
     });
 
     // $(".bounceApryl").click(function(){
@@ -393,8 +392,8 @@ $(function () {
       $(".banner").css("background", "#0000FF");
       $(".apryl").css("visibility", "hidden");
       $(".azha").css("visibility", "hidden");
-      $(".bannerLeft").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
-      $(".bannerRight").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
+      $(".bannerLeft").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
+      $(".bannerRight").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
     });
 
     $(".channel1").click(function(){
@@ -425,8 +424,8 @@ $(function () {
       $(".shopContainer").css("visibility", "visible");
       $(".apryl").css("visibility", "hidden");
       $(".azha").css("visibility", "hidden");
-      $(".bannerLeft").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP ');
-      $(".bannerRight").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP ');
+      $(".bannerLeft").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP');
+      $(".bannerRight").html('<span class = "firstTicker">SHOP</span> SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP SHOP');
     });
     /******** END SHOP ********/
 

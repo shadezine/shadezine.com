@@ -81,7 +81,7 @@ body {
   float: left;
   transform: rotate(90deg);
   transform-origin: left top 0;
-  width: 100%;
+  width: 200%;
   margin-left: 2.2%;
   word-spacing: 7vw;
 }
@@ -91,7 +91,7 @@ body {
   transform: rotate(90deg);
   margin-left: 100%;
   transform-origin: left top 0;
-  width: 100%;
+  width: 200%;
   word-spacing: 7vw;
 }
 
