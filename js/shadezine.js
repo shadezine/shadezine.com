@@ -114,7 +114,7 @@ $(function () {
     $("#backgroundTV").attr('src', 'images/whiteNoise.gif');
     $(".apryl").css("visibility", "visible");
     $(".azha").css("visibility", "visible");
-    $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
+    $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE');
     $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
   });
   /******** END HOME NAV ********/
@@ -131,7 +131,7 @@ $(function () {
   $(".bounceAbout").mouseout(function(){
     if (!clickedAbout) {
       $(".banner").css("background", "white");
-      $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE');
       $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     }
     $(".st0").css("fill", "red");
@@ -148,7 +148,7 @@ $(function () {
   $(".bounceTeam").mouseout(function(){
     if (!clickedTeam) {
       $(".banner").css("background", "white");
-      $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE');
       $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     }
     $(".st0").css("fill", "red");
@@ -165,7 +165,7 @@ $(function () {
     if (!clickedShop) {
       $(".banner").css("background", "white");
       $(".banner").css("color", "#000");
-      $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE');
       $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     }
     $(".st0").css("fill", "#FF0000");
@@ -201,7 +201,7 @@ $(function () {
     if (!clickedInternet) {
       $(".banner").css("background", "#fff");
       $(".banner").css("color", "#000");
-      $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
+      $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE');
       $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     }
     $(".st0").css("fill", "#ff0000");
@@ -216,7 +216,7 @@ $(function () {
 
   $(".bounceProjects").mouseout(function(){
     $(".banner").css("background", "#fff");
-    $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
+    $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE');
     $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     $(".st0").css("fill", "#ff0000");
   });
