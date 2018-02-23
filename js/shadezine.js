@@ -276,7 +276,7 @@ $(function () {
       $(".apryl").css("visibility", "hidden");
       $(".azha").css("visibility", "hidden");
       $(".bannerLeft").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET');
-      $(".bannerRight").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET');
+      $(".bannerRight").html('<span class = "firstTicker">INTERNET</span> INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET INTERNET');
     });
     /******** END INTERNET ********/
 
@@ -394,6 +394,7 @@ $(function () {
       $(".azha").css("visibility", "hidden");
       $(".bannerLeft").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
       $(".bannerRight").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
+      $(".iframeMobile").css("visibility", "visible");
     });
 
     $(".channel1").click(function(){

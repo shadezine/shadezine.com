@@ -54,7 +54,7 @@
   }
 
   .twitter {
-    left:50%;
+    left:35%;
     position: absolute;
     width: 55.5%;
   }
@@ -76,12 +76,19 @@
     visibility: hidden;
   }
 
-  iframe {
-    position: absolute;
-    width: 18%;
-    height: 18%;
-    top: 0%;
+  .iframeMobile {
+    position: relative;
+    width: 80%;
+    height: 200%;
+    margin-top: 10%;
     left: 0%;
+    visibility: hidden;
+    border-radius: 0px;
+  }
+
+  .tvMobile {
+    margin-top: -40%;
+    text-align: center;
   }
 
 }
