@@ -32,6 +32,8 @@
   .aboutContainer {
     font-size: 5.5vw;
     width: 87.5%;
+
+    top: 100%;
   }
 
   .email {
