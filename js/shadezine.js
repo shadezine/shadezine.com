@@ -3,6 +3,11 @@ var gap = 200;
 var delay = -20000;
 
 $(function () {
+
+  if($(window).width() < $(window).height()) {
+    document.getElementById("changeAbout").innerHTML = "Shade is a concept. An art house. A name cultivated out of a friendship between two creative women of color who saw a void online and in the art world. Shade is currently run out of the Bay Area. Our space is ever changing and uncontainable.Azha Ayanna Luckman is a multidisciplinary artist, photographer, and creative director of SHADE. Luckman reclaims the gaze that has routinely catered to white or male narratives. She cares about representation of people of color in photography, media, and all visual arts + histories. Centered in these realms, her work creates space for black, queer youth like herself. Apryl Fuentes is an editorial writer, copy editor, and cofounder of Shade. Her work includes creative direction, content curation, video direction and visual storytelling. Through a myriad of mediums, Fuentes documents the ever changing world around her in proximity to the identities and spaces she encompasses.";
+  }
+
   /******** MARQUEE ********/
   $('.marqueeTop').marquee({
     duration: duration,
@@ -72,16 +77,15 @@ $(function () {
     });
   }
 
-  /******** GIRLZ ********/
-  var randomGirlz=[];
-  $(".girlz").each(function(){ randomGirlz.push($(this));});
-  for (var i = 0; i < randomGirlz.length; i++) {
-    randLocGirlz();
-    console.log("moved");
-    $(randomGirlz[i]).css('left', randPosX);
-    $(randomGirlz[i]).css('top', randPosY);
-  }
-  /******** END GIRLZ ********/
+    /******** GIRLZ ********/
+    var randomGirlz=[];
+    $(".girlz").each(function(){ randomGirlz.push($(this));});
+    for (var i = 0; i < randomGirlz.length; i++) {
+      randLocGirlz();
+      $(randomGirlz[i]).css('left', randPosX);
+      $(randomGirlz[i]).css('top', randPosY);
+    }
+    /******** END GIRLZ ********/
   /******** END BOUNCE ********/
 
   var clickedAbout = false;
