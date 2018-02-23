@@ -9,12 +9,12 @@
   }
 
   .bannerLeft {
-    width: 500%;
+    width: 300%;
     margin-left: 4.5%;
   }
 
   .bannerRight {
-    width: 500%;
+    width: 300%;
   }
 
   .girlz {
@@ -64,6 +64,24 @@
     margin-top:-10%;
     left: 8%;
     width: 45%;
+  }
+
+  .bouncingTeam {
+
+    width: 70%;
+    font-size: 5.25vw;
+  }
+
+  .tvDesktop {
+    visibility: hidden;
+  }
+
+  iframe {
+    position: absolute;
+    width: 18%;
+    height: 18%;
+    top: 0%;
+    left: 0%;
   }
 
 }
