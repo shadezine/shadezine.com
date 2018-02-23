@@ -144,11 +144,11 @@ body {
 }
 
 .azha {
-  /* width: 25%; */
+  position: absolute;
 }
 
 .apryl {
-  left: 75%;
+  
 }
 /******** END GIRLZ ********/
 

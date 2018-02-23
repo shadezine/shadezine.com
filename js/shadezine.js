@@ -33,17 +33,6 @@ $(function () {
   });
   /******** END MARQUEE ********/
 
-  /******** GIRLZ ********/
-  var randomGirlz=[];
-  $(".girlz").each(function(){ randomGirlz.push($(this));});
-
-  for (var i = 0; i < randomGirlz.length; i++) {
-    randLocGirlz();
-    $(randomGirlz[i]).css('left', randPosX);
-    $(randomGirlz[i]).css('top', randPosY);
-  }
-  /******** END GIRLZ ********/
-
   /******** BOUNCE ********/
   var bodyWidth =  window.innerWidth;
   var bodyHeight =  window.innerHeight;
@@ -63,7 +52,6 @@ $(function () {
 
   var bouncingDiv=[];
   $(".bounce").each(function(){ bouncingDiv.push($(this));});
-
   for (var i = 0; i < bouncingDiv.length; i++) {
     randLoc();
     $(bouncingDiv[i]).css('left', randPosX);
@@ -75,7 +63,6 @@ $(function () {
 
   var bouncingTeamDiv=[];
   $(".bouncingTeam").each(function(){ bouncingTeamDiv.push($(this));});
-
   for (var i = 0; i < bouncingTeamDiv.length; i++) {
     randLocGirlz();
     $(bouncingTeamDiv[i]).css('left', randPosX);
@@ -84,6 +71,17 @@ $(function () {
       inc:0
     });
   }
+
+  /******** GIRLZ ********/
+  var randomGirlz=[];
+  $(".girlz").each(function(){ randomGirlz.push($(this));});
+  for (var i = 0; i < randomGirlz.length; i++) {
+    randLocGirlz();
+    console.log("moved");
+    $(randomGirlz[i]).css('left', randPosX);
+    $(randomGirlz[i]).css('top', randPosY);
+  }
+  /******** END GIRLZ ********/
   /******** END BOUNCE ********/
 
   var clickedAbout = false;
