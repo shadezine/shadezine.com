@@ -6,11 +6,12 @@
 
   .banner {
     font-size:2.75vw;
+    border: 0.25vw solid black;
   }
 
   .bannerLeft {
     width: 300%;
-    margin-left: 4.5%;
+    margin-left: 5.5%;
   }
 
   .bannerRight {
@@ -21,12 +22,9 @@
     width: 40%;
   }
 
-  .bouncing {
-    font-size: 12vw;
-  }
-
   .bounce {
     font-size: 12vw;
+    -webkit-text-stroke: 0.3vw black;
   }
 
   .aboutContainer {
