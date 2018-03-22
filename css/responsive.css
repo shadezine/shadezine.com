@@ -13,11 +13,13 @@
     width: 300%;
     font-size:2vw;
     margin-left: 5.5%;
+    visibility: hidden;
   }
 
   .bannerRight {
     width: 300%;
     font-size:2vw;
+    visibility: hidden;
   }
 
   .girlz {
