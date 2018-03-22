@@ -409,6 +409,20 @@ iframe {
   width: 60%;
 }
 
+.TVCopy {
+  font-family: '83';
+  font-size: 1.75vw;
+  position: absolute;
+  visibility: hidden;
+  z-index: 1;
+  width: 40%;
+  text-align: justify;
+  left: 25%;
+  top: 9%;
+}
+
+/******** END TV ********/
+
 /* ******* VIMEO RESPONSIVE ********/
 .intrinsic-container {
   position: relative;
