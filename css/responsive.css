@@ -96,11 +96,9 @@
   .TVCopy {
     font-family: '83';
     font-size: 3.75vw;
-    position: absolute;
     z-index: 1;
     left: 5%;
     width: 90%;
-    top: 10%;
     text-align: justify;
     color: white;
   }
