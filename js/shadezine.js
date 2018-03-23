@@ -399,7 +399,9 @@ $(function () {
       $(".bannerRight").html('<span class = "firstTicker">SHADETV</span> SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV SHADETV');
       if($(window).width() < $(window).height()) {
         $(".iframeMobile").css("visibility", "visible");
+        $(".TVCopy").css("visibility", "visible");
       }
+
     });
 
     $(".channel1").click(function(){

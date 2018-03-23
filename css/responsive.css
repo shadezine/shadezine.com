@@ -34,7 +34,6 @@
   .aboutContainer {
     font-size: 5.5vw;
     width: 87.5%;
-
     top: 132.5%;
   }
 
@@ -95,5 +94,14 @@
     text-align: center;
   }
 
+  .TVCopy {
+    font-family: '83';
+    font-size: 3.75vw;
+    position: absolute;
+    z-index: 1;
+    left: 5%;
+    width: 100%;
+    text-align: justify;
+  }
 }
 /************************/
