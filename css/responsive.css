@@ -89,7 +89,7 @@
   }
 
   .tvMobile {
-    margin-top: 10%;
+    margin-top: 15%;
     text-align: center;
   }
 
@@ -100,7 +100,7 @@
     z-index: 1;
     left: 5%;
     width: 90%;
-    top: -2.5%;
+    top: 0%;
     text-align: justify;
   }
 }
