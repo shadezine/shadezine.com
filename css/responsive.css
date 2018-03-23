@@ -100,8 +100,9 @@
     z-index: 1;
     left: 5%;
     width: 90%;
-    top: 0%;
+    top: 50%;
     text-align: justify;
+    color: white;
   }
 }
 /************************/
