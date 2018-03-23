@@ -70,6 +70,7 @@
   }
 
   .bouncingTeam {
+
     width: 70%;
     font-size: 5.25vw;
   }
@@ -89,18 +90,8 @@
   }
 
   .tvMobile {
-    margin-top: 37.5%;
+    margin-top: -40%;
     text-align: center;
-  }
-
-  .TVCopy {
-    font-family: '83';
-    font-size: 3.75vw;
-    z-index: 1;
-    left: 5%;
-    width: 90%;
-    text-align: justify;
-    color: white;
   }
 }
 /************************/
