@@ -93,5 +93,9 @@
     margin-top: -60%;
     text-align: center;
   }
+
+  .TVCopy {
+    visibility: hidden;
+  }
 }
 /************************/
