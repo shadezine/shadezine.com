@@ -27,16 +27,16 @@
   }
 
   .bounce {
-    font-size: 12vw;
+    font-size: 14vw;
     -webkit-text-stroke: 0.5vw black;
   }
 
-  /* .aboutContainer {
+  .aboutContainer {
     font-size: 5.5vw;
     width: 87.5%;
 
     top: 132.5%;
-  } */
+  }
 
   .email {
     letter-spacing:none;
