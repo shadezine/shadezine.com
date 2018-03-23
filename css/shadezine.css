@@ -138,9 +138,13 @@ body {
 
 /******** GIRLZ ********/
 .girlz {
-  width: 15%;
+  width: 14%;
   z-index: 1;
   position: absolute;
+}
+
+.apryl {
+  width: 12.5%;
 }
 /******** END GIRLZ ********/
 

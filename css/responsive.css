@@ -4,6 +4,10 @@
     width: 90%;
   }
 
+  .bouncing {
+    text-align: center;
+  }
+
   .banner {
     font-size:2vw;
     border: 0.25vw solid black;
