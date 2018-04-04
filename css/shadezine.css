@@ -458,6 +458,35 @@ iframe {
 /******** END TV ********/
 
 /******** SHOP ********/
+a {
+  text-decoration: none;
+  -webkit-text-stroke: 0.15vw black;
+  letter-spacing:0.05em;
+}
+a.rgb, a.rgb:link, a.rgb:visited, a.rgb:hover, a.rgb:focus, a.rgb:active{
+  color:#0000ff;
+}
+
+a.shopLink, a.shopLink:link, a.shopLink:visited, a.shopLink:hover, a.shopLink:focus, a.shopLink:active{
+  color:#ff0000;
+}
+
+a.homeLink, a.homeLink:link, a.homeLink:visited, a.homeLink:hover, a.homeLink:focus, a.homeLink:active{
+  color:#fff;
+}
+
+a.tshirtLink, a.tshirtLink:link, a.tshirtLink:visited, a.tshirtLink:hover, a.tshirtLink:focus, a.tshirtLink:active{
+  color:#FF00FF;
+}
+
+a.moneyLink, a.moneyLink:link, a.moneyLink:visited, a.moneyLink:hover, a.moneyLink:focus, a.moneyLink:active{
+  color:#00FF00;
+}
+
+a.buymeLink, a.buymeLink:link, a.buymeLink:visited, a.buymeLink:hover, a.buymeLink:focus, a.buymeLink:active{
+  color:#FFFF00;
+}
+
 .shopContainer {
   font-family:'83', sans-serif;
   color: #000;
