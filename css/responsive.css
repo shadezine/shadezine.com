@@ -105,5 +105,15 @@
   .TVCopy {
     visibility: hidden;
   }
+
+  .tshirt {
+    width: 350%;
+  }
+
+  .tshirtSmall {
+    width: 70%;
+    left: 50%;
+    top: 50%;
+  }
 }
 /************************/
