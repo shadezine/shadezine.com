@@ -430,7 +430,7 @@ $(function () {
       clickedShop = true;
       $(".bouncing").css("visibility", "hidden");
       $(".st0").css("visibility", "hidden");
-      $("body").css("background-color", "#fff");
+      $("body").css("background-color", "#000");
       $(".banner").css("background", "#fff");
       $(".shopContainer").css("visibility", "visible");
       $(".apryl").css("visibility", "hidden");
