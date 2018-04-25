@@ -119,6 +119,8 @@ $(function () {
     $(".bannerRight").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE');
     $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     $(".TVCopy").css("visibility", "hidden");
+    $("#backgroundTV").css("visibility", "hidden");
+
   });
   /******** END HOME NAV ********/
 
@@ -401,6 +403,7 @@ $(function () {
         $(".iframeMobile").css("visibility", "visible");
         $(".TVCopy").css("visibility", "hidden");
       }
+      $("#backgroundTV").css("visibility", "visible");
 
     });
 
@@ -409,6 +412,8 @@ $(function () {
       $("iframe").css("visibility", "visible");
       $("#backgroundTV").attr('src', 'images/bg.png');
       $("iframe").attr('src', 'https://www.youtube.com/embed/w8x7tPK3T1c');
+      $("#backgroundTV").css("visibility", "visible");
+
     });
 
     $(".channel2").click(function(){
@@ -416,12 +421,13 @@ $(function () {
       $("iframe").css("visibility", "visible");
       $("#backgroundTV").attr('src', 'images/bg.png');
       $("iframe").attr('src', 'https://www.youtube.com/embed/NseWbkSU2go');
+      $("#backgroundTV").css("visibility", "visible");
     });
 
     $(".channel3").click(function(){
       $(".TVCopy").css("visibility", "visible");
       $("iframe").css("visibility", "hidden");
-      $("#backgroundTV").attr('src', 'images/whiteNoise.gif');
+      $("#backgroundTV").css("visibility", "hidden");
     });
     /******** END TV ********/
 

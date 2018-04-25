@@ -224,6 +224,17 @@ body {
   -webkit-animation-timing-function: linear;
 }
 
+.soundcloud {
+  top:50%;
+  right: 75%;
+  position: absolute;
+  width: 20%;
+  -webkit-animation-name: rotateLeft;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
 @-webkit-keyframes rotateLeft {
     from { -webkit-transform: rotate(360deg); }
     to { -webkit-transform: rotate(0deg); }
@@ -399,7 +410,6 @@ iframe {
   padding-top: 2%;
   padding-left: 1%;
   width: 58%;
-  height: 10%;
 }
 
 .black {
@@ -414,7 +424,7 @@ iframe {
 }
 
 .TVCopy {
-  font-family: '83';
+  font-family: '63';
   font-size: 1.75vw;
   position: absolute;
   visibility: hidden;
@@ -422,8 +432,16 @@ iframe {
   width: 40%;
   text-align: justify;
   left: 25%;
-  top: 9%;
-  color: black;
+  top: 11%;
+  color: white;
+  line-height: 140%;
+}
+
+.shadeTVLogo {
+  top: 7%;
+  left: 34%;
+  position: absolute;
+  width: 20%;
 }
 
 /******** END TV ********/

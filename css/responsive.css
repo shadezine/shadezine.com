@@ -66,6 +66,7 @@
 
   .twitter {
     left:35%;
+    margin-top:-10%;
     position: absolute;
     width: 55.5%;
   }
@@ -75,6 +76,13 @@
     margin-top:-10%;
     left: 8%;
     width: 45%;
+  }
+
+  .soundcloud {
+    position: absolute;
+    margin-top:25%;
+    left: 8%;
+    width: 40%;
   }
 
   .bouncingTeam {
