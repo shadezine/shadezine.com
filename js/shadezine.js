@@ -334,6 +334,7 @@ $(function () {
 
     $(".bounceApryl").mouseover(function(){
       $(".contentApryl").css("visibility", "hidden");
+      $(".contentApryl2").css("visibility", "visible");
       $(".bounceApryl").css("z-index", "3");
       $(".bounceAzha").css("z-index", "2");
       $(".bounceRewina").css("z-index", "2");
@@ -343,6 +344,7 @@ $(function () {
 
     $(".bounceApryl").mouseout(function(){
       $(".contentApryl").css("visibility", "visible");
+      $(".contentApryl2").css("visibility", "hidden");
     });
 
     $(".bounceAzha").mouseover(function(){
@@ -352,14 +354,17 @@ $(function () {
       $(".bounceBritney").css("z-index", "2");
       $(".bouncing").css("z-index", "1");
       $(".contentAzha").css("visibility", "hidden");
+      $(".contentAzha2").css("visibility", "visible");
     });
 
     $(".bounceAzha").mouseout(function(){
       $(".contentAzha").css("visibility", "visible");
+      $(".contentAzha2").css("visibility", "hidden");
     });
 
     $(".bounceRewina").mouseover(function(){
       $(".contentRewina").css("visibility", "hidden");
+      $(".contentRewina2").css("visibility", "visible");
       $(".bounceAzha").css("z-index", "2");
       $(".bounceApryl").css("z-index", "2");
       $(".bounceRewina").css("z-index", "3");
@@ -369,6 +374,7 @@ $(function () {
 
     $(".bounceRewina").mouseout(function(){
       $(".contentRewina").css("visibility", "visible");
+      $(".contentRewina2").css("visibility", "hidden");
     });
 
     $(".bounceBritney").mouseover(function(){
@@ -378,10 +384,12 @@ $(function () {
       $(".bounceBritney").css("z-index", "3");
       $(".bouncing").css("z-index", "1");
       $(".contentBritney").css("visibility", "hidden");
+      $(".contentBritney2").css("visibility", "visible");
     });
 
     $(".bounceBritney").mouseout(function(){
       $(".contentBritney").css("visibility", "visible");
+      $(".contentBritney2").css("visibility", "hidden");
     });
 
 
