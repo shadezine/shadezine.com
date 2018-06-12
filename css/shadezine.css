@@ -61,7 +61,7 @@ body {
 }
 
 .Top {
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 1;
 }
@@ -304,7 +304,6 @@ body {
   font-size: 1.69vw;
   width: 90%;
 }
-
 
 .contentRewina2{
   top: 5%;
