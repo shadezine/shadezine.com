@@ -1,7 +1,8 @@
 /******** MOBILE ********/
 @media only screen and (max-width: 500px) {
-  html {
+  html, body, .container {
     overflow-x: hidden;
+    overflow-y: hidden;
   }
 
   .logo {
