@@ -1,10 +1,4 @@
 /******** MOBILE ********/
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
 @media only screen and (max-width: 500px) {
   .logo {
     width: 90%;
@@ -17,6 +11,13 @@ html, body {
   .banner {
     font-size:2vw;
     border: 0.25vw solid black;
+  }
+
+
+  .Top {
+    position: fixed;
+    width: 10%;
+    z-index: 1;
   }
 
   .bannerLeft {
