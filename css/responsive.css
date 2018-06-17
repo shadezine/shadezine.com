@@ -13,7 +13,6 @@
     border: 0.25vw solid black;
   }
 
-
   .Top {
     position: fixed;
     width: 10%;
@@ -21,14 +20,14 @@
   }
 
   .bannerLeft {
-    width: 300%;
+    width: 0%;
     font-size:2vw;
     margin-left: 5.5%;
     visibility: hidden;
   }
 
   .bannerRight {
-    width: 300%;
+    width: 0%;
     font-size:2vw;
     visibility: hidden;
   }

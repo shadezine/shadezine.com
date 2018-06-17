@@ -62,7 +62,7 @@ body {
 
 .Top {
   position: fixed;
-  width: 10%;
+  width: 100%;
   z-index: 1;
 }
 
