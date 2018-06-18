@@ -97,7 +97,7 @@
   }
 
   .tvDesktop {
-    visibility: hidden;
+    display: none;
   }
 
   .iframeMobile {
