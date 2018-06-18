@@ -122,7 +122,7 @@ $(function () {
     $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     $(".TVCopy").css("visibility", "hidden");
     $("#backgroundTV").css("visibility", "hidden");
-    document.ontouchmove = function(e){ return true; }
+    document.ontouchmove = function(e){ e.preventDefault(); }
   });
   /******** END HOME NAV ********/
 
