@@ -2,6 +2,12 @@ var duration = 20000;
 var gap = 200;
 var delay = -20000;
 
+var clickedAbout = false;
+var clickedInternet = false;
+var clickedTeam = false;
+var clickedTV = false;
+var clickedShop = false;
+
 $(function () {
 
   if($(window).width() < $(window).height()) {
@@ -91,12 +97,6 @@ $(function () {
     }
     /******** END GIRLZ ********/
   /******** END BOUNCE ********/
-
-  var clickedAbout = false;
-  var clickedInternet = false;
-  var clickedTeam = false;
-  var clickedTV = false;
-  var clickedShop = false;
 
   /******** HOME NAV ********/
   $(".banners").click(function(){
