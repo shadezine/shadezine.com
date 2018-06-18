@@ -122,7 +122,7 @@ $(function () {
     $(".bannerLeft").html('<span class = "firstTicker">SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE SHADE ');
     $(".TVCopy").css("visibility", "hidden");
     $("#backgroundTV").css("visibility", "hidden");
-
+    document.ontouchmove = function(e){ return true; }
   });
   /******** END HOME NAV ********/
 
@@ -241,6 +241,7 @@ $(function () {
       $(".bannerLeft").html('<span class = "firstTicker">ABOUT</span> ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ');
       $(".bannerRight").html('<span class = "firstTicker">ABOUT</span> ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ');
       // $('.banner').attr('style', 'background: #ff0000 !important');
+      document.ontouchmove = function(e){ return true; }
     });
 
     $(".azha").mouseover(function(){
