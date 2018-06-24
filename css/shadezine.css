@@ -140,7 +140,7 @@ body {
 .girlz {
   width: 14%;
   z-index: 1;
-  position: absolute;
+  position: fixed;
 }
 
 .apryl {
