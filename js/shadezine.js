@@ -16,6 +16,12 @@ $(function () {
       document.ontouchmove = function(e){ e.preventDefault(); }
 
       $(".tvDesktop").css("visibility", "hidden");
+
+      $(".banners").click(function(){
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        document.ontouchmove = function(e){ e.preventDefault(); }
+      });
   }
 
   /******** MARQUEE ********/

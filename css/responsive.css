@@ -120,14 +120,38 @@
   }
 
   .tshirt {
-    width: 350%;
+    width: 300%;
     left: 50%;
   }
 
-  .tshirtSmall {
+  /* .tshirtSmall {
     width: 70%;
     left: 50%;
     top: 50%;
+  } */
+
+  .shopText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family:'helvetica', sans-serif;
+    width: 75%;
+    color: black;
+    font-size: 5vw;
+  }
+
+  .shopText .bold {
+    font-weight: bold;
+    font-size: 5vw;
+    font-family:'83', sans-serif;
+  }
+
+  .price {
+    font-family:'83', sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
   }
 }
 /************************/

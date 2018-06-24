@@ -569,7 +569,7 @@ a.moneyLink, a.moneyLink:link, a.moneyLink:visited, a.moneyLink:hover, a.moneyLi
 }
 
 a.buymeLink, a.buymeLink:link, a.buymeLink:visited, a.buymeLink:hover, a.buymeLink:focus, a.buymeLink:active{
-  color:#FFFF00;
+  color:#FF0000;
 }
 
 .shopContainer {
@@ -588,7 +588,7 @@ a.buymeLink, a.buymeLink:link, a.buymeLink:visited, a.buymeLink:hover, a.buymeLi
 .bouncingBigShop {
   width: 10px;
   font-family:'83', sans-serif;
-  color: #fff;
+  color: #000;
   font-size: 9vw;
   -webkit-text-stroke: 0.15vw black;
   letter-spacing:0.05em;
@@ -613,5 +613,26 @@ a.buymeLink, a.buymeLink:link, a.buymeLink:visited, a.buymeLink:hover, a.buymeLi
   transform: translate(-50%, -50%);
   width: 15%;
   z-index: -1;
+}
+
+.shopText {
+  margin-left: 5%;
+  text-align: left;
+  font-family:'helvetica', sans-serif;
+  width: 35%;
+  color: red;
+  font-size: 0.925vw;
+}
+
+.shopText .bold {
+  font-weight: bold;
+  font-size: 1.5vw;
+  font-family:'83', sans-serif;
+}
+
+.price {
+  font-family:'83', sans-serif;
+  font-size: 0.75vw;
+  font-weight: bold;
 }
 /******** END SHOP ********/
