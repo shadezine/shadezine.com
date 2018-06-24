@@ -442,6 +442,22 @@ $(function () {
       $("iframe").css("visibility", "hidden");
       $("#backgroundTV").css("visibility", "hidden");
     });
+
+    $(".channel4").click(function(){
+      $(".TVCopy").css("visibility", "hidden");
+      $("iframe").css("visibility", "visible");
+      $("#backgroundTV").attr('src', 'images/bg.png');
+      $("iframe").attr('src', 'https://www.youtube.com/embed/NseWbkSU2go');
+      $("#backgroundTV").css("visibility", "visible");
+    });
+
+    $(".channel5").click(function(){
+      $(".TVCopy").css("visibility", "hidden");
+      $("iframe").css("visibility", "visible");
+      $("#backgroundTV").attr('src', 'images/bg.png');
+      $("iframe").attr('src', 'https://www.youtube.com/embed/NseWbkSU2go');
+      $("#backgroundTV").css("visibility", "visible");
+    });
     /******** END TV ********/
 
     /******** SHOP ********/

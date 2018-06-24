@@ -245,7 +245,7 @@ body {
     to { -webkit-transform: rotate(360deg); }
 }
 
-.instagram:hover, .tumblr:hover, .twitter:hover, .youtube:hover {
+.instagram:hover, .tumblr:hover, .twitter:hover, .youtube:hover, .soundcloud:hover {
   -webkit-animation-play-state: paused;
 }
 /******** END INTERNET ********/
@@ -363,7 +363,7 @@ button {
 .channel1 {
   position: absolute;
   top: 1.5%;
-  left: 70.25%;
+  left: 70.125%;
   border: 0.05vw solid #ff0000;
   background-color: transparent;
   border-radius: 0.15vw;
@@ -378,7 +378,7 @@ button {
 .channel2 {
   position: absolute;
   top: 1.5%;
-  left: 74.5%;
+  left: 74.35%;
   border: 0.05vw solid #00ff00;
   background-color: transparent;
   border-radius: 0.15vw;
@@ -393,7 +393,7 @@ button {
 .channel3 {
   position: absolute;
   top: 7%;
-  left: 70.25%;
+  left: 70.12%;
   border: 0.05vw solid #0000ff;
   background-color: transparent;
   border-radius: 0.15vw;
@@ -403,6 +403,36 @@ button {
 
 .channel3:hover {
   background: #0000ff;
+}
+
+.channel4 {
+  position: absolute;
+  top: 7%;
+  left: 76.75%;
+  border: 0.05vw solid #ffff00;
+  background-color: transparent;
+  border-radius: 0.15vw;
+  padding: 0.55% 1.05%;
+  text-decoration: none;
+}
+
+.channel4:hover {
+  background: #ffff00;
+}
+
+.channel5 {
+  position: absolute;
+  top: 7%;
+  left: 74.55%;
+  border: 0.05vw solid #ff00ff;
+  background-color: transparent;
+  border-radius: 0.15vw;
+  padding: 0.55% 1.05%;
+  text-decoration: none;
+}
+
+.channel5:hover {
+  background: #ff00ff;
 }
 
 .bouncingBigTV {
