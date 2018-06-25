@@ -595,23 +595,16 @@ a.buymeLink, a.buymeLink:link, a.buymeLink:visited, a.buymeLink:hover, a.buymeLi
 }
 
 .shirts {
-  padding-left: 200%;
+  /* padding-left: 200%; */
+  background-color: red;
+  width: 100px;
 }
 .tshirt {
   position: absolute;
-  top: 50%;
-  left: 58.5%;
+  top: 55%;
+  left: 80.5%;
   transform: translate(-50%, -50%);
   width: 70%;
-  z-index: -1;
-}
-
-.tshirtSmall {
-  position: absolute;
-  left: 12.5%;
-  margin-top: -15.35%;
-  transform: translate(-50%, -50%);
-  width: 15%;
   z-index: -1;
 }
 
@@ -619,9 +612,13 @@ a.buymeLink, a.buymeLink:link, a.buymeLink:visited, a.buymeLink:hover, a.buymeLi
   margin-left: 5%;
   text-align: left;
   font-family:'helvetica', sans-serif;
-  width: 35%;
-  color: red;
+  width: 30%;
+  color: black;
   font-size: 0.925vw;
+  letter-spacing: 0.0;
+  /* border-style: double;
+  border-width: medium;
+  padding: 2vw; */
 }
 
 .shopText .bold {
@@ -632,7 +629,7 @@ a.buymeLink, a.buymeLink:link, a.buymeLink:visited, a.buymeLink:hover, a.buymeLi
 
 .price {
   font-family:'83', sans-serif;
-  font-size: 0.75vw;
+  font-size: 0.825vw;
   font-weight: bold;
 }
 /******** END SHOP ********/

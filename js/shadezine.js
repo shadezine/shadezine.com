@@ -471,7 +471,7 @@ $(function () {
     $(".bounceShop").click(function(){
       clickedShop = true;
       $(".bouncing").css("visibility", "hidden");
-      $(".st0").css("visibility", "hidden");
+      // $(".st0").css("visibility", "hidden");
       $("body").css("background-color", "#fff");
       $(".banner").css("background", "#ff0000");
       $(".shopContainer").css("visibility", "visible");
