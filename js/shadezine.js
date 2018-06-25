@@ -470,6 +470,9 @@ $(function () {
     /******** SHOP ********/
     $(".bounceShop").click(function(){
       clickedShop = true;
+      if($(window).width() < $(window).height()) {
+          $(".st0").css("visibility", "hidden");
+      }
       $(".bouncing").css("visibility", "hidden");
       // $(".st0").css("visibility", "hidden");
       $("body").css("background-color", "#fff");

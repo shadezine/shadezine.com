@@ -120,8 +120,9 @@
   }
 
   .tshirt {
-    width: 300%;
-    left: 50%;
+    width: 175%;
+    left: 45%;
+    margin-top: -32.5%;
   }
 
   /* .tshirtSmall {
@@ -132,25 +133,24 @@
 
   .shopText {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 40%;
+    left: 7.5%;
     text-align: center;
     font-family:'helvetica', sans-serif;
     width: 75%;
     color: black;
-    font-size: 5vw;
+    font-size: 2.5vw;
   }
 
   .shopText .bold {
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 3vw;
     font-family:'83', sans-serif;
   }
 
   .price {
     font-family:'83', sans-serif;
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: bold;
   }
 }
