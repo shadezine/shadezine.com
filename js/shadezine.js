@@ -454,7 +454,7 @@ $(function () {
       $(".TVCopy").css("visibility", "hidden");
       $("iframe").css("visibility", "visible");
       $("#backgroundTV").attr('src', 'images/bg.png');
-      $("iframe").attr('src', 'https://www.youtube.com/embed/NseWbkSU2go');
+      $("iframe").attr('src', 'https://www.youtube.com/embed/66N0JZuHSwI');
       $("#backgroundTV").css("visibility", "visible");
     });
 
