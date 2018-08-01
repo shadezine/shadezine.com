@@ -1,0 +1,635 @@
+/******** RESET ********/
+html, button, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  /*cursor: crosshair;*/
+}
+
+/******** BODY ********/
+body {
+  overflow: hidden;
+  background: none;
+}
+
+@font-face {
+ font-family: '83';
+ src: url("../fonts/83.otf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: '63';
+ src: url("../fonts/63.otf") /* TTF file for CSS3 browsers */
+}
+/******** END BODY ********/
+
+/******** LOGO ********/
+.logo {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.st0 {
+  fill:#ff0000;
+}
+/******** END LOGO ********/
+
+/******** BANNERS ********/
+.banner {
+  font-family:'helvetica', sans-serif;
+  /* font-style: italic; */
+  font-weight: 700;
+  background: white;
+  color: black;
+  border: 0.125vw solid black;
+  letter-spacing: 0vw;
+  font-size:1vw;
+  padding: 0.5% 0 0.5% 0;
+  cursor: pointer;
+}
+
+.bannerAnimation {
+  word-spacing: 12vw;
+  overflow: hidden;
+  padding: 0.5% 0 0.5% 0;
+}
+
+.Top {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.Bottom {
+  width: 100%;
+  float: bottom;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+.bannerLeft {
+  position: absolute;
+  float: left;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  width: 200%;
+  margin-left: 2.2%;
+  word-spacing: 7vw;
+}
+
+.bannerRight {
+  float: left;
+  transform: rotate(90deg);
+  margin-left: 100%;
+  transform-origin: left top 0;
+  width: 200%;
+  word-spacing: 7vw;
+}
+
+/* .firstTicker {
+  padding-left: 3.25%;
+} */
+/******** END BANNERS ********/
+
+/******** BOUNCE ********/
+.bouncing {
+  width: 10px;
+  font-family:'83', sans-serif;
+  color: #fff;
+  font-size: 9vw;
+  -webkit-text-stroke: 0.15vw black;
+  letter-spacing:0.05em;
+  cursor: pointer;
+}
+
+.bounceAbout:hover {
+  color:red;
+}
+
+.bounceTeam:hover {
+  color: #FF00FF;
+}
+
+.bounceShop:hover {
+  color: red;
+}
+
+.bounceTV:hover {
+  color: #0000ff;
+}
+
+.bounceInternet:hover {
+  color: #00ff00;
+}
+
+.bounceProjects:hover {
+  color: #FFFF00;
+}
+/******** END BOUNCE ********/
+
+/******** GIRLZ ********/
+.girlz {
+  width: 14%;
+  z-index: 1;
+  position: fixed;
+}
+
+.apryl {
+  width: 12.5%;
+}
+/******** END GIRLZ ********/
+
+/******** ABOUT ********/
+.aboutContainer {
+  font-family:'83', sans-serif;
+  color: #000;
+  font-size: 3.25vw;
+  letter-spacing:0.05em;
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.email {
+  text-decoration: none;
+  color: black;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+/******** END ABOUT ********/
+
+/******** INTERNET ********/
+.internetContainer {
+  font-family:'83', sans-serif;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  left: 53.5%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  visibility: hidden;
+}
+.instagram {
+  position: relative;
+  left: 10%;
+  width: 45%;
+  -webkit-animation-name: rotateLeft;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+.tumblr {
+  position: absolute;
+  left: 10%;
+  top:10%;
+  width: 15%;
+  -webkit-animation-name: rotateRight;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+.twitter {
+  top:20%;
+  position: absolute;
+  width: 37.5%;
+  -webkit-animation-name: rotateRight;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+.youtube {
+  top:10%;
+  position: absolute;
+  width: 20%;
+  -webkit-animation-name: rotateLeft;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+.soundcloud {
+  top:50%;
+  right: 75%;
+  position: absolute;
+  width: 20%;
+  -webkit-animation-name: rotateLeft;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotateLeft {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0deg); }
+}
+
+@-webkit-keyframes rotateRight {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+.instagram:hover, .tumblr:hover, .twitter:hover, .youtube:hover, .soundcloud:hover {
+  -webkit-animation-play-state: paused;
+}
+/******** END INTERNET ********/
+
+/******** TEAM ********/
+.teamContainer {
+  visibility: hidden;
+}
+
+.bouncingTeam {
+  color: black;
+  background: #FF00FF;
+  width: 30%;
+  font-size: 2.5vw;
+  font-family: '63';
+  border: 0.25vw solid black;
+  box-shadow: 10px 10px;
+}
+
+.bouncingTeam:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.contentApryl, .contentAzha, .contentAzha2, .contentApryl2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 35%;
+  left: 5%;
+}
+
+.contentAzha2, .contentApryl2, .contentRewina2, .contentBritney2 {
+  visibility: hidden;
+}
+
+.contentRewina, .contentBritney, .contentRewina2, .contentBritney2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 25%;
+  left: 5%;
+}
+
+.contentAzha2{
+  top: 4%;
+  left: 5%;
+  font-size: 1.55vw;
+  width: 90%;
+}
+
+.contentApryl2 {
+  top: 5%;
+  left: 5%;
+  font-size: 1.69vw;
+  width: 90%;
+}
+
+.contentRewina2{
+  top: 5%;
+  left: 5%;
+  font-size: 2vw;
+  width: 90%;
+}
+
+.contentBritney2 {
+  top: 5%;
+  left: 5%;
+  font-size: 1.75vw;
+  width: 91%;
+}
+
+.contentAzha2 a, .contentApryl2 a, .contentRewina2 a, .contentBritney2 a {
+  color:blue;
+  -webkit-text-stroke: 0vw black;
+}
+
+.bouncingBigTeam {
+  width: 10px;
+  font-family:'83', sans-serif;
+  color: #FF00FF;
+  font-size: 9vw;
+  -webkit-text-stroke: 0.15vw black;
+  letter-spacing:0.05em;
+}
+
+.bounceApryl:hover {
+  background-image: url("../images/logo.jpg");
+  background-size:contain;
+}
+
+.bounceAzha:hover {
+  background-image: url("../images/logo.jpg");
+  background-size:contain;
+}
+
+.bounceRewina:hover {
+  background-image: url("../images/logo.jpg");
+  background-size:contain;
+}
+
+.bounceBritney:hover {
+  background-image: url("../images/logo.jpg");
+  background-size:contain;
+}
+/******** END TEAM ********/
+
+/******** TV ********/
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+.channel1 {
+  position: absolute;
+  top: 1.5%;
+  left: 70.125%;
+  border: 0.05vw solid #ff0000;
+  background-color: transparent;
+  border-radius: 0.15vw;
+  padding: 0.55% 1.05%;
+  text-decoration: none;
+}
+
+.channel1:hover {
+  background: #ff0000;
+}
+
+.channel2 {
+  position: absolute;
+  top: 1.5%;
+  left: 74.35%;
+  border: 0.05vw solid #00ff00;
+  background-color: transparent;
+  border-radius: 0.15vw;
+  padding: 0.55% 1.05%;
+  text-decoration: none;
+}
+
+.channel2:hover {
+  background: #00ff00;
+}
+
+.channel3 {
+  position: absolute;
+  top: 7%;
+  left: 70.12%;
+  border: 0.05vw solid #0000ff;
+  background-color: transparent;
+  border-radius: 0.15vw;
+  padding: 0.55% 1.05%;
+  text-decoration: none;
+}
+
+.channel3:hover {
+  background: #0000ff;
+}
+
+.channel4 {
+  position: absolute;
+  top: 7%;
+  left: 76.75%;
+  border: 0.05vw solid #ffff00;
+  background-color: transparent;
+  border-radius: 0.15vw;
+  padding: 0.55% 1.05%;
+  text-decoration: none;
+}
+
+.channel4:hover {
+  background: #ffff00;
+}
+
+.channel5 {
+  position: absolute;
+  top: 7%;
+  left: 74.55%;
+  border: 0.05vw solid #ff00ff;
+  background-color: transparent;
+  border-radius: 0.15vw;
+  padding: 0.55% 1.05%;
+  text-decoration: none;
+}
+
+.channel5:hover {
+  background: #ff00ff;
+}
+
+.bouncingBigTV {
+  width: 10px;
+  font-family:'83', sans-serif;
+  color: #0000FF;
+  font-size: 9vw;
+  -webkit-text-stroke: 0.15vw black;
+  letter-spacing:0.05em;
+}
+
+.channel {
+  visibility: hidden;
+}
+
+.tvContainer {
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tv {
+  margin-top: -4.5%;
+  text-align: center;
+}
+
+iframe {
+  position: absolute;
+  width: 38%;
+  height: 58%;
+  border-radius: 50px;
+  top: 18.5%;
+  left: 25.75%;
+  z-index: 1;
+  visibility: hidden;
+}
+
+.whiteNoise {
+  padding-top: 2%;
+  padding-left: 1%;
+  width: 58%;
+}
+
+.black {
+  width: 58%;
+  height: 10%;
+  background-color: black;
+}
+
+.tv001 {
+  position: absolute;
+  width: 60%;
+}
+
+.TVCopy {
+  font-family: '63';
+  font-size: 1.75vw;
+  position: absolute;
+  visibility: hidden;
+  z-index: 1;
+  width: 40%;
+  text-align: justify;
+  left: 25%;
+  top: 11%;
+  color: white;
+  line-height: 140%;
+}
+
+.shadeTVLogo {
+  top: 7%;
+  left: 34%;
+  position: absolute;
+  width: 20%;
+}
+
+/******** END TV ********/
+
+/* ******* VIMEO RESPONSIVE ********/
+.intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
+}
+
+/* 4x3 Aspect Ratio */2
+.intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0%;
+  width: 50%;
+  height: 55%;
+  border-radius: 50px;
+}
+/******** END VIMEO RESPONSIVE ******* */
+/******** END TV ********/
+
+/******** SHOP ********/
+a {
+  text-decoration: none;
+  -webkit-text-stroke: 0.15vw black;
+  letter-spacing:0.05em;
+}
+a.rgb, a.rgb:link, a.rgb:visited, a.rgb:hover, a.rgb:focus, a.rgb:active{
+  color:#0000ff;
+}
+
+a.shopLink, a.shopLink:link, a.shopLink:visited, a.shopLink:hover, a.shopLink:focus, a.shopLink:active{
+  color:#ff0000;
+}
+
+a.homeLink, a.homeLink:link, a.homeLink:visited, a.homeLink:hover, a.homeLink:focus, a.homeLink:active{
+  color:#fff;
+}
+
+a.tshirtLink, a.tshirtLink:link, a.tshirtLink:visited, a.tshirtLink:hover, a.tshirtLink:focus, a.tshirtLink:active{
+  color:#FF00FF;
+}
+
+a.moneyLink, a.moneyLink:link, a.moneyLink:visited, a.moneyLink:hover, a.moneyLink:focus, a.moneyLink:active{
+  color:#00FF00;
+}
+
+a.buymeLink, a.buymeLink:link, a.buymeLink:visited, a.buymeLink:hover, a.buymeLink:focus, a.buymeLink:active{
+  color:#FF0000;
+}
+
+.shopContainer {
+  font-family:'83', sans-serif;
+  color: #000;
+  font-size: 3.25vw;
+  letter-spacing:0.05em;
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+.bouncingBigShop {
+  width: 10px;
+  font-family:'83', sans-serif;
+  color: #000;
+  font-size: 9vw;
+  -webkit-text-stroke: 0.15vw black;
+  letter-spacing:0.05em;
+}
+
+.shirts {
+  /* padding-left: 200%; */
+  background-color: red;
+  width: 100px;
+}
+.tshirt {
+  position: absolute;
+  top: 55%;
+  left: 80.5%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  z-index: -1;
+}
+
+.shopText {
+  margin-left: 5%;
+  text-align: left;
+  font-family:'helvetica', sans-serif;
+  width: 32.5%;
+  color: black;
+  font-size: 1vw;
+  letter-spacing: 0.0;
+  /* border-style: double;
+  border-width: medium;
+  padding: 2vw; */
+}
+
+.shopText .bold {
+  font-weight: bold;
+  font-size: 1.5vw;
+  font-family:'83', sans-serif;
+}
+
+.price {
+  font-family:'83', sans-serif;
+  font-size: 0.825vw;
+  font-weight: bold;
+}
+/******** END SHOP ********/

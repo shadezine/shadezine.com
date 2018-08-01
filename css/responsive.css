@@ -1,0 +1,157 @@
+/******** MOBILE ********/
+@media only screen and (max-width: 500px) {
+  html, body, .container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .logo {
+    width: 90%;
+  }
+
+  .bouncing {
+    text-align: center;
+  }
+
+  .banner {
+    font-size:2vw;
+    border: 0.25vw solid black;
+  }
+
+  .bannerLeft {
+    width: 300%;
+    font-size:2vw;
+    margin-left: 5.5%;
+    visibility: hidden;
+  }
+
+  .bannerRight {
+    width: 300%;
+    font-size:2vw;
+    visibility: hidden;
+  }
+
+  .girlz {
+    width: 40%;
+  }
+
+  .apryl {
+    width: 35%;
+  }
+
+  .bounce {
+    font-size: 14vw;
+    -webkit-text-stroke: 0.5vw black;
+  }
+
+  .aboutContainer {
+    font-size: 5.5vw;
+    width: 87.5%;
+    top: 132.5%;
+  }
+
+  .email {
+    letter-spacing:none;
+    font-size: 4vw;
+  }
+
+  .instagram {
+    position: absolute;
+    bottom:50%;
+    left: 0%;
+    width: 75%;
+  }
+
+  .tumblr {
+    position: absolute;
+    left: 30%;
+    margin-top:35%;
+    width: 40.5%;
+  }
+
+  .twitter {
+    left:35%;
+    margin-top:-10%;
+    position: absolute;
+    width: 55.5%;
+  }
+
+  .youtube {
+    position: absolute;
+    margin-top:-10%;
+    left: 8%;
+    width: 45%;
+  }
+
+  .soundcloud {
+    position: absolute;
+    margin-top:25%;
+    left: 8%;
+    width: 40%;
+  }
+
+  .bouncingTeam {
+
+    width: 70%;
+    font-size: 5.25vw;
+  }
+
+  .tvDesktop {
+    display: none;
+  }
+
+  .iframeMobile {
+    position: relative;
+    width: 80%;
+    height: 200%;
+    margin-top: 10%;
+    left: 0%;
+    visibility: hidden;
+    border-radius: 0px;
+  }
+
+  .tvMobile {
+    margin-top: -10%;
+    text-align: center;
+  }
+
+  .TVCopy {
+    visibility: hidden;
+  }
+
+  .tshirt {
+    width: 175%;
+    left: 45%;
+    margin-top: -20.5%;
+  }
+
+  /* .tshirtSmall {
+    width: 70%;
+    left: 50%;
+    top: 50%;
+  } */
+
+  .shopText {
+    position: absolute;
+    margin-top: 33.5%;
+    left: 7.5%;
+    text-align: center;
+    font-family:'helvetica', sans-serif;
+    width: 75%;
+    color: black;
+    font-size: 2.5vw;
+  }
+
+  .shopText .bold {
+    font-weight: bold;
+    font-size: 3vw;
+    font-family:'83', sans-serif;
+  }
+
+  .price {
+    font-family:'83', sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+}
+/************************/
