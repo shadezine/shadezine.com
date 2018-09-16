@@ -436,7 +436,7 @@ $(function () {
 
     });
 
-    $(".channel2").click(function(){
+    $(".channel3").click(function(){
       $(".TVCopy").css("visibility", "hidden");
       $("iframe").css("visibility", "visible");
       $("#backgroundTV").attr('src', 'images/bg.png');
@@ -444,13 +444,13 @@ $(function () {
       $("#backgroundTV").css("visibility", "visible");
     });
 
-    $(".channel3").click(function(){
+    $(".channel6").click(function(){
       $(".TVCopy").css("visibility", "visible");
       $("iframe").css("visibility", "hidden");
       $("#backgroundTV").css("visibility", "hidden");
     });
 
-    $(".channel4").click(function(){
+    $(".channel8").click(function(){
       $(".TVCopy").css("visibility", "hidden");
       $("iframe").css("visibility", "visible");
       $("#backgroundTV").attr('src', 'images/bg.png');
@@ -458,7 +458,7 @@ $(function () {
       $("#backgroundTV").css("visibility", "visible");
     });
 
-    $(".channel5").click(function(){
+    $(".channel7").click(function(){
       $(".TVCopy").css("visibility", "hidden");
       $("iframe").css("visibility", "visible");
       $("#backgroundTV").attr('src', 'images/bg.png');

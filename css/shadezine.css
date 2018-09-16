@@ -375,7 +375,7 @@ button {
   background: #ff0000;
 }
 
-.channel2 {
+.channel3 {
   position: absolute;
   top: 1.5%;
   left: 74.35%;
@@ -386,11 +386,11 @@ button {
   text-decoration: none;
 }
 
-.channel2:hover {
+.channel3:hover {
   background: #00ff00;
 }
 
-.channel3 {
+.channel6 {
   position: absolute;
   top: 7%;
   left: 70.12%;
@@ -401,11 +401,11 @@ button {
   text-decoration: none;
 }
 
-.channel3:hover {
+.channel6:hover {
   background: #0000ff;
 }
 
-.channel4 {
+.channel8 {
   position: absolute;
   top: 7%;
   left: 76.75%;
@@ -416,11 +416,11 @@ button {
   text-decoration: none;
 }
 
-.channel4:hover {
+.channel8:hover {
   background: #ffff00;
 }
 
-.channel5 {
+.channel7 {
   position: absolute;
   top: 7%;
   left: 74.55%;
@@ -431,7 +431,7 @@ button {
   text-decoration: none;
 }
 
-.channel5:hover {
+.channel7:hover {
   background: #ff00ff;
 }
 
