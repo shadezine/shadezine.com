@@ -431,7 +431,7 @@ $(function () {
       $(".TVCopy").css("visibility", "hidden");
       $("iframe").css("visibility", "visible");
       $("#backgroundTV").attr('src', 'images/bg.png');
-      $("iframe").attr('src', 'https://www.youtube.com/watch?v=8hoDcsMMthE&t=1s');
+      $("iframe").attr('src', 'https://www.youtube.com/embed/8hoDcsMMthE');
       $("#backgroundTV").css("visibility", "visible");
 
     });
