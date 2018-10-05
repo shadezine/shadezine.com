@@ -261,7 +261,7 @@ $(function () {
     });
 
     $(".azha").mouseout(function(){
-      $(".aboutShade").html('Shade is a concept. An art house. A name cultivated out of a friendship between two creative women of color who saw avoid online and in the art world. Shade is currently run out of the Bay Area. Our space is ever changing and uncontainable.<br> <br> <a class = "email" href="mailto:contactshadezine@gmail.com?subject=feedback">contactshadezine@gmail.com</a>');
+      $(".aboutShade").html('Shade is a concept. An art house. A name cultivated out of a friendship between two creative women of color who saw a void online and in the art world. Shade is currently run out of the Bay Area. Our space is ever changing and uncontainable.<br> <br> <a class = "email" href="mailto:contactshadezine@gmail.com?subject=feedback">contactshadezine@gmail.com</a>');
       if (clickedAbout) {
         $(".apryl").css("visibility", "visible");
       }
@@ -275,7 +275,7 @@ $(function () {
     });
 
     $(".apryl").mouseout(function(){
-      $(".aboutShade").html('Shade is a concept. An art house. A name cultivated out of a friendship between two creative women of color who saw avoid online and in the art world. Shade is currently run out of the Bay Area. Our space is ever changing and uncontainable.<br> <br> <a class = "email" href="mailto:contactshadezine@gmail.com?subject=feedback">contactshadezine@gmail.com</a>');
+      $(".aboutShade").html('Shade is a concept. An art house. A name cultivated out of a friendship between two creative women of color who saw a void online and in the art world. Shade is currently run out of the Bay Area. Our space is ever changing and uncontainable.<br> <br> <a class = "email" href="mailto:contactshadezine@gmail.com?subject=feedback">contactshadezine@gmail.com</a>');
       if (clickedAbout) {
         $(".azha").css("visibility", "visible");
       }
